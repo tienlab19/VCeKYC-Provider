@@ -1,0 +1,11 @@
+framework module VFTeKYC {
+  umbrella header "VFTeKYC.h"
+  export *
+
+  module * { export * }
+}
+
+module VFTeKYC.Swift {
+  header "VFTeKYC-Swift.h"
+  requires objc
+}
