@@ -1101,6 +1101,16 @@ public class NFCPassportModel {
     get
   }
   #if compiler(>=5.3) && $NonescapableTypes
+  public var getDg13: VFTeKYC.DataGroup13? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var getDg11: VFTeKYC.DataGroup11? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var passportImage: UIKit.UIImage? {
     get
   }
@@ -1268,6 +1278,10 @@ extension VFTeKYC.PassportReader : CoreNFC.NFCTagReaderSessionDelegate {
   public func tagReaderSessionDidBecomeActive(_ session: CoreNFC.NFCTagReaderSession)
   public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didInvalidateWithError error: any Swift.Error)
   public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didDetect tags: [CoreNFC.NFCTag])
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
+public class DataGroup13 : VFTeKYC.DataGroup {
+  @objc deinit
 }
 public enum PACEMappingType {
   case GM
