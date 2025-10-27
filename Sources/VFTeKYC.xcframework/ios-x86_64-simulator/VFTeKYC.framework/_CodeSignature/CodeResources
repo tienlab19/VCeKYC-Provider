@@ -6,23 +6,23 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		CK2f88Xsjt3Xnkb8C8+Bu8G06pw=
+		wrudXbkQI7LEtc8LMhE3YI1WaRo=
 		</data>
 		<key>CameraOCRViewcontroller.nib</key>
 		<data>
-		bvZ4Ep6STnEE61C6Bsk9XAnQ/xo=
+		Ai+XYZ01qh0rebcNFHMijhcVV+Q=
 		</data>
 		<key>ChipNFCReaderViewController.nib</key>
 		<data>
-		0O15xbDFtvee7QsFlBSSd0YiTso=
+		DGyLvl4sO+Tzx+P/23jvBT1pcrM=
 		</data>
 		<key>DialogCameraPermissionVC.nib</key>
 		<data>
-		/4kWu7hzREpciK4mlZAB9F8T9kM=
+		ZBgcjp+8KRUwfdEUT3CcctZjCDU=
 		</data>
 		<key>DialogViewController.nib</key>
 		<data>
-		geSHDWcIL/pXb0TflteRjNg9znU=
+		IxDdlz6VzsYPWgpKGX1PiQfAEYs=
 		</data>
 		<key>FaceDetectFarAndNearViewController.nib</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>FaceLivenessResulViewController.nib</key>
 		<data>
-		EOI+W/WLZdan0c+9Wf+Zo4HC22M=
+		tfdyO5k1n2TOsBly2kXDqVIMcCo=
 		</data>
 		<key>FaceLivenessViewController.nib</key>
 		<data>
-		RY++WXYyFNH9dGQAnR26NvCQphQ=
+		LPfavt0L/dinK4D1A1QvoJzCZEs=
 		</data>
 		<key>FaceMatchingInfoVC.nib</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fOSGhDRXy94FNoYMc8cc7PH54Cc=
+		f9vX4BsOFkxZdpFhq9TmDUD/JqU=
 		</data>
 		<key>InputEkycViewcontroller.nib</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		YBOZP8gJHm2T/ckOIAxo9w4FfTo=
+		52mwQf6Pv/orDLNlIXU6OpTlh6Q=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		21GiuzGmn4bF6CNRUrtaIYbT2fc=
+		3mMYot2CqxjuEQa+PAlmWXzl610=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -106,19 +106,19 @@
 		</data>
 		<key>OcrGuidePageViewController.nib</key>
 		<data>
-		hlUhkyXEVIk3FIWpDrVT0P1i76k=
+		hBsclCxpoVcgjdfIo5QSl0EYAQg=
 		</data>
 		<key>PlayScanNFCToturialViewcontroller.nib</key>
 		<data>
-		jYn7eZEjNczatYv5JfbNvLvxpwg=
+		tOTKRJDGmKA+3M/ah+fP4I/ODL4=
 		</data>
 		<key>QRGuideViewController.nib</key>
 		<data>
-		feY456Ogalw+0v58ei+2/MErabc=
+		BtG9fx675tTEDPIFqaJehapQdcs=
 		</data>
 		<key>QRResultViewController.nib</key>
 		<data>
-		AvVgsYF847D1GKM76cf6DkokVH4=
+		z5BniNopb4xyapvKVAhkUkaYuWQ=
 		</data>
 		<key>QRScannerViewController.nib</key>
 		<data>
@@ -155,35 +155,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9DYT344vcSHGxBfqYdb8f068J6WWJJvbNGwxcHZBaYU=
+			wToKMpLafac5XPFjQ7e3cPqoFoi4F4EfEWQgiRwAaa8=
 			</data>
 		</dict>
 		<key>CameraOCRViewcontroller.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8LC8mg7DkoONkJPXGuXi20gLklGYOZXu1UlogLQffJw=
+			HJHIv8key3t5BF+O5XS2gfgK0PaIeLIKm5KEy+oRud8=
 			</data>
 		</dict>
 		<key>ChipNFCReaderViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iElKDQl4fmTIdnxCyrZrQA6IRokpITDprRscKhtEfl4=
+			ncGq/eGGcdB03xdn18+L8Rt0xAlYCK9cLUYroy4HHzI=
 			</data>
 		</dict>
 		<key>DialogCameraPermissionVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oO4qfpxsac+rTNF/QvG4NLCu3xvi89EChaUkC+V2JpA=
+			BAru6wiuwKj+Mm9URcpXy/BPMm26Epz9UJScL0bk7G8=
 			</data>
 		</dict>
 		<key>DialogViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0jFLJlRPObz5423q9afXavNDXuF7INpPb2dP3uO5X0U=
+			rCjCvNypo589QQBUdlBKC2aY1oB2/7Mr9dcrTJjpCg4=
 			</data>
 		</dict>
 		<key>FaceDetectFarAndNearViewController.nib</key>
@@ -204,14 +204,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lwMJGHJOb8Vte+9ipI/DuFYWuG1WI6L565mZ7aigY0s=
+			nN6UjDfLZEU6JW8T4kAglYCoyp+AZgVbf3L1EiI01Ow=
 			</data>
 		</dict>
 		<key>FaceLivenessViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LAJ7hoUSX5WHyi0lnYnT1A04IbXpktyluTFkk0ms1lc=
+			Rw803u1VDNXoGIImoL5VQIaJ+TxNoKFjrz60APhxMtQ=
 			</data>
 		</dict>
 		<key>FaceMatchingInfoVC.nib</key>
@@ -267,7 +267,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fuumdbg6FWPImIZcL2nwp4UNNcCKLnfiv3e+cku4v8k=
+			KiXN7XveY/uB0efS7jgVwFAz04/+TU2BOXtyQ9mTa2A=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -295,7 +295,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5SFAUwBjoRKhVkg6+iiPcXUQDvtq4Q0GAT5tc8QkLiE=
+			HDSUiS/F1oAdKN2A4SPJdICM51OZL8eTjES3m8UMRBI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -323,28 +323,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HKil7ZH8NxNCh4Ynna1K6xK/P61Y06ciU+lvaZplBEE=
+			afc5xdwgTQorYskCET0BmCmJmKckmElpmw7dEylNsDc=
 			</data>
 		</dict>
 		<key>PlayScanNFCToturialViewcontroller.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R1UknIkWQmbDIK2apHUqP98VDyzxGriA0FlKgMQ6JWw=
+			CgX7ttnpaQMhgDTQmjHXAbH2n6D0/HlPhji+wOAtLk0=
 			</data>
 		</dict>
 		<key>QRGuideViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SoZFx985lyKldRmh1/pVX19z5c0fvVG3ewKIf0PQmbk=
+			ws80HfDgKZuQ26CzRE+ovHz0bpnPSL+DLLE1XmLRSW0=
 			</data>
 		</dict>
 		<key>QRResultViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ABBQkz+IpHy0dKhWCPVtZS0MPUYX6Dng34vmWP+wnTw=
+			w4x2Fa8b1YCsJoVnd7qMcUjneIycJSZ+qMq39zvlm+M=
 			</data>
 		</dict>
 		<key>QRScannerViewController.nib</key>

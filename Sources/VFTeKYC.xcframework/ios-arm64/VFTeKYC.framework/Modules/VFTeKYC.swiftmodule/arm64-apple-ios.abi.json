@@ -138252,411 +138252,460 @@
       "kind": "StringLiteral",
       "offset": 1556,
       "length": 10,
+      "value": "\"QRGuide1\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1692,
+      "length": 10,
+      "value": "\"QRGuide2\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1828,
+      "length": 10,
+      "value": "\"QRGuide3\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1964,
+      "length": 10,
+      "value": "\"QRGuide4\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2100,
+      "length": 10,
       "value": "\"backicon\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1693,
+      "offset": 2237,
       "length": 11,
       "value": "\"camera_ic\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1831,
+      "offset": 2375,
       "length": 11,
       "value": "\"cccd-back\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1969,
+      "offset": 2513,
       "length": 11,
       "value": "\"cccd-font\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2111,
+      "offset": 2655,
       "length": 13,
       "value": "\"cccd_guide1\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2255,
+      "offset": 2799,
       "length": 13,
       "value": "\"cccd_guide2\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2399,
+      "offset": 2943,
       "length": 13,
       "value": "\"cccd_guide3\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2543,
+      "offset": 3087,
       "length": 13,
       "value": "\"cccd_guide4\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2696,
+      "offset": 3240,
       "length": 18,
       "value": "\"cccd_guide_back1\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2854,
+      "offset": 3398,
       "length": 18,
       "value": "\"cccd_guide_back2\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3012,
+      "offset": 3556,
       "length": 18,
       "value": "\"cccd_guide_back3\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3170,
+      "offset": 3714,
       "length": 18,
       "value": "\"cccd_guide_back4\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3310,
+      "offset": 3854,
       "length": 8,
       "value": "\"center\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3441,
+      "offset": 3991,
+      "length": 12,
+      "value": "\"done_green\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4126,
       "length": 9,
       "value": "\"done_ic\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3574,
+      "offset": 4259,
       "length": 9,
       "value": "\"english\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3710,
+      "offset": 4395,
       "length": 11,
       "value": "\"face-left\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3850,
+      "offset": 4535,
       "length": 12,
       "value": "\"face-right\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3995,
+      "offset": 4680,
       "length": 14,
       "value": "\"face-strange\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4129,
+      "offset": 4814,
       "length": 7,
       "value": "\"face1\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4256,
+      "offset": 4941,
       "length": 7,
       "value": "\"face2\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4383,
+      "offset": 5068,
       "length": 7,
       "value": "\"face3\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4510,
+      "offset": 5195,
       "length": 7,
       "value": "\"face4\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4651,
+      "offset": 5336,
       "length": 15,
       "value": "\"face_border_1\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4800,
+      "offset": 5485,
       "length": 15,
       "value": "\"face_border_2\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4949,
+      "offset": 5634,
       "length": 15,
       "value": "\"face_border_3\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5098,
+      "offset": 5783,
       "length": 15,
       "value": "\"face_border_4\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5247,
+      "offset": 5932,
       "length": 15,
       "value": "\"face_border_5\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5394,
+      "offset": 6079,
       "length": 14,
       "value": "\"face_info_bg\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5535,
+      "offset": 6220,
       "length": 11,
       "value": "\"failed_ic\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5671,
+      "offset": 6356,
       "length": 10,
       "value": "\"first_bg\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5806,
+      "offset": 6491,
       "length": 10,
       "value": "\"flash_on\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5939,
+      "offset": 6619,
+      "length": 6,
+      "value": "\"help\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6748,
       "length": 9,
       "value": "\"help_ic\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6077,
+      "offset": 6886,
       "length": 12,
       "value": "\"ic_appIcon\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6212,
+      "offset": 7021,
       "length": 9,
       "value": "\"ic_back\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6354,
+      "offset": 7163,
       "length": 14,
       "value": "\"ic_biometric\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6510,
+      "offset": 7319,
       "length": 19,
       "value": "\"ic_camera_request\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6654,
+      "offset": 7463,
       "length": 10,
       "value": "\"ic_check\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6793,
+      "offset": 7602,
       "length": 12,
       "value": "\"ic_checked\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6930,
+      "offset": 7739,
       "length": 10,
       "value": "\"ic_close\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7061,
+      "offset": 7870,
       "length": 8,
       "value": "\"ic_eye\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7203,
+      "offset": 8012,
       "length": 15,
       "value": "\"ic_eye_closed\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7362,
+      "offset": 8171,
       "length": 20,
       "value": "\"ic_invalidate_chip\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7528,
+      "offset": 8337,
       "length": 21,
       "value": "\"ic_logo_vegafintech\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7689,
+      "offset": 8498,
       "length": 18,
       "value": "\"ic_no_connection\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7845,
+      "offset": 8654,
       "length": 17,
       "value": "\"ic_take_picture\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7985,
+      "offset": 8794,
       "length": 9,
       "value": "\"ic_tick\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8128,
+      "offset": 8937,
       "length": 15,
       "value": "\"ic_tick_large\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8283,
+      "offset": 9092,
       "length": 18,
       "value": "\"ic_validate_chip\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8419,
+      "offset": 9228,
       "length": 6,
       "value": "\"left\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8550,
+      "offset": 9361,
+      "length": 11,
+      "value": "\"notice_ic\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9497,
       "length": 10,
       "value": "\"orc_info\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8682,
+      "offset": 9629,
       "length": 8,
       "value": "\"playIc\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8828,
+      "offset": 9775,
       "length": 17,
       "value": "\"qr-camera-frame\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8970,
+      "offset": 9917,
       "length": 10,
       "value": "\"qr-guide\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9105,
+      "offset": 10052,
       "length": 10,
       "value": "\"qr_frame\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9235,
+      "offset": 10182,
       "length": 7,
       "value": "\"right\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9371,
+      "offset": 10318,
       "length": 12,
       "value": "\"success_ic\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9511,
+      "offset": 10458,
       "length": 11,
       "value": "\"thumbnail\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9647,
+      "offset": 10594,
       "length": 10,
       "value": "\"vft_logo\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9781,
+      "offset": 10728,
       "length": 9,
       "value": "\"vietnam\""
     }
