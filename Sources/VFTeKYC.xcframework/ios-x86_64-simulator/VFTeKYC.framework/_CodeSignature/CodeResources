@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		wrudXbkQI7LEtc8LMhE3YI1WaRo=
+		03CZK2+QqzxCvbjG6riQMQA4L2c=
 		</data>
 		<key>CameraOCRViewcontroller.nib</key>
 		<data>
-		Ai+XYZ01qh0rebcNFHMijhcVV+Q=
+		q2zkzruvaGTYVNyrdxcsr67rEdM=
 		</data>
 		<key>ChipNFCReaderViewController.nib</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3mMYot2CqxjuEQa+PAlmWXzl610=
+		qtYgyqBMO5hbvOfjee1fNnkxhFg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>PlayScanNFCToturialViewcontroller.nib</key>
 		<data>
-		tOTKRJDGmKA+3M/ah+fP4I/ODL4=
+		Ict4sn/OwPjD8Cn3zfT7PI/Oyog=
 		</data>
 		<key>QRGuideViewController.nib</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>QRScannerViewController.nib</key>
 		<data>
-		sF0MRVG+qXwuUswUZj2+6aTIqi4=
+		bHuGMODkhtaObnYVIL/gY7S9Olw=
 		</data>
 		<key>ScanQRVC.nib</key>
 		<data>
@@ -148,6 +148,10 @@
 		<data>
 		qrsFb0sSPrTfLx7Iawd+0UmolNo=
 		</data>
+		<key>YTPlayer.html</key>
+		<data>
+		bDU1XsmSIVu0iWZkOV7TFoN7A30=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -155,14 +159,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wToKMpLafac5XPFjQ7e3cPqoFoi4F4EfEWQgiRwAaa8=
+			uJ3SKF7g1qB145ULPXQxSUV+mo4M/EmU8bKu0/Xs6q0=
 			</data>
 		</dict>
 		<key>CameraOCRViewcontroller.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HJHIv8key3t5BF+O5XS2gfgK0PaIeLIKm5KEy+oRud8=
+			6ezvIlgzDl7UBzoz+IC9VZWqjQLlNWZsLLHgLIDsTqI=
 			</data>
 		</dict>
 		<key>ChipNFCReaderViewController.nib</key>
@@ -295,7 +299,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HDSUiS/F1oAdKN2A4SPJdICM51OZL8eTjES3m8UMRBI=
+			LVMy9ufe+PoDjWvfQdzfB/mEsGCkkUcMEZYV1j/oDys=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -330,7 +334,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CgX7ttnpaQMhgDTQmjHXAbH2n6D0/HlPhji+wOAtLk0=
+			AkqcJY9zGAX/0pXRJ7S52fIzHF3lkRnhj9k0o2B6FNg=
 			</data>
 		</dict>
 		<key>QRGuideViewController.nib</key>
@@ -351,7 +355,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PljXCwJbNEi+QW1SXLbvC21pT/rPO2KVRaZRxV3wRdA=
+			AN+0XgucEWp2tJnq2QQqR2+44XZoQzJ/snTjK0ugT8U=
 			</data>
 		</dict>
 		<key>ScanQRVC.nib</key>
@@ -394,6 +398,13 @@
 			<key>hash2</key>
 			<data>
 			UkOAlavwjzx90kR6VdBO10ABeMXi0RDZx1Ug8Fb4PYM=
+			</data>
+		</dict>
+		<key>YTPlayer.html</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			V8P5qw1fk18Dg5WgmzXvh7F3RZaRmJrpmaEn1kZhBF8=
 			</data>
 		</dict>
 	</dict>
