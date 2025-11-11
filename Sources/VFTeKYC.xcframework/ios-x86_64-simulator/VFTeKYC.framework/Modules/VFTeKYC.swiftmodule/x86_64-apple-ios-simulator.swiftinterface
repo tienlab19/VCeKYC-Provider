@@ -1474,6 +1474,7 @@ extension VFTeKYC.RedirectHandler where Self == VFTeKYC.Redirector {
   public static func startOCR(fromVC: UIKit.UIViewController, setShowScreenIntroOCR: Swift.Bool, onFrontSideSuccess: ((VFTeKYC.VFTFrontSide, UIKit.UIImage) -> Swift.Void)?, onFrontSideFailure: ((Swift.String) -> Swift.Void)?, onVerifyQRImage: ((VFTeKYC.VFTQrResult?, UIKit.UIImage) -> Swift.Void)?, onVerifyQRFailure: ((Swift.String) -> Swift.Void)?, onBackSideSuccess: ((VFTeKYC.VFTBackSide, UIKit.UIImage) -> Swift.Void)?, onBackSideFailure: ((Swift.String) -> Swift.Void)?)
   #endif
   public static func startEKYC(fromVC: UIKit.UIViewController, completion: @escaping (_ response: Swift.Int) -> Swift.Void)
+  public static func startLiveness(fromVC: UIKit.UIViewController, completion: @escaping (_ response: Swift.Int) -> Swift.Void)
   #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 13, *)
   public static func startNFC(birthdate: Swift.String, expiryDate: Swift.String, documentNumber: Swift.String, viewController: UIKit.UIViewController, customDisplayMessage: ((VFTeKYC.NFCViewDisplayMessage) -> Swift.String?)? = nil, completed: @escaping (VFTeKYC.NFCPassportModel?, VFTeKYC.NFCPassportReaderError?) -> ())

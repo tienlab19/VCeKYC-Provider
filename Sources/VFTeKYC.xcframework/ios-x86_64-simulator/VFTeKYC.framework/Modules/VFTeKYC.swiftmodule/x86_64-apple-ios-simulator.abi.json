@@ -41154,6 +41154,52 @@
           },
           {
             "kind": "Function",
+            "name": "startLiveness",
+            "printedName": "startLiveness(fromVC:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7VFTeKYC0A6KYCSDKC13startLiveness6fromVC10completionySo16UIViewControllerC_ySictFZ",
+            "mangledName": "$s7VFTeKYC0A6KYCSDKC13startLiveness6fromVC10completionySo16UIViewControllerC_ySictFZ",
+            "moduleName": "VFTeKYC",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "startNFC",
             "printedName": "startNFC(birthdate:expiryDate:documentNumber:viewController:customDisplayMessage:completed:)",
             "children": [
@@ -132968,6 +133014,13 @@
       "offset": 2924,
       "length": 2,
       "value": "11"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/FaceLivenessViewController\/FaceLivenessViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 319,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/NFCPassportReader\/OpenSSLUtils.swift",
