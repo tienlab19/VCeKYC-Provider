@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		s60qFnTiwPJkcsKTsooD+WERjH4=
+		mo9hkNry0kNblC9qRrtCZXKXsWo=
 		</data>
 		<key>CameraOCRViewcontroller.nib</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		wrmP9Rjh/an3t9/bbD3G1pJpYcg=
+		eqD67ntSNBhbaqQDnnClqUZd1Mo=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		N8VAxUUmBTRJ8fXJTWHm8goHY3A=
+		/hbWN8r0HxuLSw1v8MNfF+js5sw=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -86,11 +86,11 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		N8VAxUUmBTRJ8fXJTWHm8goHY3A=
+		/hbWN8r0HxuLSw1v8MNfF+js5sw=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/7jYOftYa/tMXixTu3RhYT+osVQ=
+		uNNsS1pR2t18Hju35Mczo3gkbos=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -159,7 +159,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5j5AT6+gJsbT4SwYsiWrETKICdvsKmd4qCFOnCLEdIw=
+			6tyZ0I99Gz7UDx1jSSVbzBehSLMBr/f5TAYjmYOYnMk=
 			</data>
 		</dict>
 		<key>CameraOCRViewcontroller.nib</key>
@@ -271,14 +271,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5mffwwgrFgrnhioTk4aNsBVWbjYsmjpn4s3m/TBsJ9U=
+			tQuhmVTLDI9ZeVb+LUu012FqwbD5JFLhb1iJYcix5pI=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mcMPyF5oBTm/YixP5DaNgD+DSPEx14iLJIwTjpWxuCw=
+			xHzElp70CfPJLeeveACoELbYi57S0lxWmzsSvAT9ZDw=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -292,14 +292,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mcMPyF5oBTm/YixP5DaNgD+DSPEx14iLJIwTjpWxuCw=
+			xHzElp70CfPJLeeveACoELbYi57S0lxWmzsSvAT9ZDw=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xd/sGLYAsugrVH/oeOqxbfzgCGQpQA5AbyFaEsBfBBI=
+			qoa0l1X8rN9AKQu9uTEqn+WEi68KazDJiGp+LGq4u3w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

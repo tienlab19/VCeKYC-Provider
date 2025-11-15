@@ -413,6 +413,9 @@ public struct VFTCardOverflowValid : Swift.Codable {
   public var gender: Swift.String?
   public var address: Swift.String?
   public var issueDate: Swift.String?
+  public var idCard: Swift.String?
+  public var expireDate: Swift.String?
+  public var dob: Swift.String?
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -1475,6 +1478,7 @@ extension VFTeKYC.RedirectHandler where Self == VFTeKYC.Redirector {
   #endif
   public static func startEKYC(fromVC: UIKit.UIViewController, completion: @escaping (_ response: Swift.Int) -> Swift.Void)
   public static func startLiveness(fromVC: UIKit.UIViewController, completion: @escaping (_ response: Swift.Int) -> Swift.Void)
+  public static func startVerifyBiometrics(fromVC: UIKit.UIViewController, completion: @escaping (_ response: Swift.Int) -> Swift.Void)
   #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 13, *)
   public static func startNFC(birthdate: Swift.String, expiryDate: Swift.String, documentNumber: Swift.String, viewController: UIKit.UIViewController, customDisplayMessage: ((VFTeKYC.NFCViewDisplayMessage) -> Swift.String?)? = nil, completed: @escaping (VFTeKYC.NFCPassportModel?, VFTeKYC.NFCPassportReaderError?) -> ())
