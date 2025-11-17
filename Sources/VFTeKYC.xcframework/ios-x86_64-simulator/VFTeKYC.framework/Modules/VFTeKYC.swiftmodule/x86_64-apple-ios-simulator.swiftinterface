@@ -1483,6 +1483,10 @@ extension VFTeKYC.RedirectHandler where Self == VFTeKYC.Redirector {
   @available(iOS 13, *)
   public static func startNFC(birthdate: Swift.String, expiryDate: Swift.String, documentNumber: Swift.String, viewController: UIKit.UIViewController, customDisplayMessage: ((VFTeKYC.NFCViewDisplayMessage) -> Swift.String?)? = nil, completed: @escaping (VFTeKYC.NFCPassportModel?, VFTeKYC.NFCPassportReaderError?) -> ())
   #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, *)
+  public static func startNFCReader(birthdate: Swift.String, expiryDate: Swift.String, documentNumber: Swift.String, fromVC: UIKit.UIViewController, customDisplayMessage: ((VFTeKYC.NFCViewDisplayMessage) -> Swift.String?)? = nil, completion: @escaping (_ response: Swift.Int) -> Swift.Void, completed: @escaping (VFTeKYC.NFCPassportModel?, VFTeKYC.NFCPassportReaderError?) -> ())
+  #endif
   @objc deinit
 }
 public struct VFTPhotocopyValid : Swift.Codable {
