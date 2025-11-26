@@ -1,4 +1,4 @@
-// swift-tools-version: 6.0
+// swift-tools-version: 5.7
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -24,5 +24,6 @@ let package = Package(
         ),
         .binaryTarget(name: "VFTeKYC", path: "./Sources/VFTeKYC.xcframework"),
         .binaryTarget(name: "OpenSSL", path: "./Sources/OpenSSL.xcframework")
-    ]
+    ],
+    swiftLanguageVersions: [.version("5.7"))]
 )
