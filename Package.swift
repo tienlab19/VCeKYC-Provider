@@ -24,5 +24,5 @@ let package = Package(
         ),
         .binaryTarget(name: "VFTeKYC", path: "./Sources/VFTeKYC.xcframework"),
         .binaryTarget(name: "OpenSSL", path: "./Sources/OpenSSL.xcframework")
-    ],
+    ]
 )
