@@ -41852,6 +41852,163 @@
               "Available"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "chipReaderVCApp",
+            "printedName": "chipReaderVCApp(birthdate:expiryDate:documentNumber:fromVC:customDisplayMessage:completion:completed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((VFTeKYC.NFCViewDisplayMessage) -> Swift.String?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VFTeKYC.NFCViewDisplayMessage) -> Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCViewDisplayMessage",
+                        "printedName": "VFTeKYC.NFCViewDisplayMessage",
+                        "usr": "s:7VFTeKYC21NFCViewDisplayMessageO"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VFTeKYC.ChipCardInfo?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VFTeKYC.ChipCardInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChipCardInfo",
+                        "printedName": "VFTeKYC.ChipCardInfo",
+                        "usr": "s:7VFTeKYC12ChipCardInfoV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VFTeKYC.NFCPassportModel?, VFTeKYC.NFCPassportReaderError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(VFTeKYC.NFCPassportModel?, VFTeKYC.NFCPassportReaderError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "VFTeKYC.NFCPassportModel?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NFCPassportModel",
+                            "printedName": "VFTeKYC.NFCPassportModel",
+                            "usr": "s:7VFTeKYC16NFCPassportModelC"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "VFTeKYC.NFCPassportReaderError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NFCPassportReaderError",
+                            "printedName": "VFTeKYC.NFCPassportReaderError",
+                            "usr": "s:7VFTeKYC22NFCPassportReaderErrorO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7VFTeKYC0A6KYCSDKC15chipReaderVCApp9birthdate10expiryDate14documentNumber6fromVC20customDisplayMessage10completion9completedySS_S2SSo16UIViewControllerCSSSgAA07NFCViewoP0OcSgyAA12ChipCardInfoVSgcyAA16NFCPassportModelCSg_AA0yE5ErrorOSgtctFZ",
+            "mangledName": "$s7VFTeKYC0A6KYCSDKC15chipReaderVCApp9birthdate10expiryDate14documentNumber6fromVC20customDisplayMessage10completion9completedySS_S2SSo16UIViewControllerCSSSgAA07NFCViewoP0OcSgyAA12ChipCardInfoVSgcyAA16NFCPassportModelCSg_AA0yE5ErrorOSgtctFZ",
+            "moduleName": "VFTeKYC",
+            "static": true,
+            "intro_iOS": "13",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -45996,10 +46153,7 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "VFTeKYC",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "VFTeKYC"
       },
       {
         "kind": "Import",
@@ -82051,6 +82205,16 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VFTeKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "VFTeKYC",
         "declAttributes": [
@@ -135683,77 +135847,77 @@
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/ScanQRVC\/ScanQRVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 604,
+      "offset": 472,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/ScanQRVC\/ScanQRVC.swift",
       "kind": "StringLiteral",
-      "offset": 629,
+      "offset": 497,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/ScanQRVC\/ScanQRVC.swift",
       "kind": "StringLiteral",
-      "offset": 657,
+      "offset": 525,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/ScanQRVC\/ScanQRVC.swift",
       "kind": "FloatLiteral",
-      "offset": 818,
+      "offset": 686,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/ScanQRVC\/ScanQRVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1834,
+      "offset": 1702,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/ScanQRVC\/ScanQRVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1843,
+      "offset": 1711,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/ScanQRVC\/ScanQRVC.swift",
       "kind": "StringLiteral",
-      "offset": 2027,
+      "offset": 1895,
       "length": 30,
       "value": "\"Error setting zoom: \""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/ScanQRVC\/ScanQRVC.swift",
       "kind": "StringLiteral",
-      "offset": 2056,
+      "offset": 1924,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/ScanQRVC\/ScanQRVC.swift",
       "kind": "FloatLiteral",
-      "offset": 3314,
+      "offset": 3182,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/ScanQRVC\/ScanQRVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 5618,
+      "offset": 5486,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/ScanQRVC\/ScanQRVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 5650,
+      "offset": 5518,
       "length": 1,
       "value": "2"
     },
@@ -137583,6 +137747,69 @@
       "offset": 807,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/NFCScanningVCApp\/GuideNFCViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 526,
+      "length": 88,
+      "value": "\"Đặt mặt sau của thẻ CCCD gắn chíp gần với khu vực loa của iPhone. \""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/NFCScanningVCApp\/GuideNFCViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 677,
+      "length": 276,
+      "value": "\"Sau đó trượt thẻ CCCD gắn chíp từ từ từ dọc theo mặt trước điện thoại đến khi xuất hiện thông báo“ đang đọc dữ liệu từ chip” trên màn hình thì giữ nguyên vị trí thẻ cho tới khi dữ liệu được đọc xong\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/NFCScanningVCApp\/GuideNFCViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1121,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/NFCScanningVCApp\/GuideNFCViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1157,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/NFCScanningVCApp\/GuideNFCViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1183,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/NFCScanningVCApp\/GuideNFCViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9530,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/NFCScanningVCApp\/GuideNFCViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10231,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/NFCScanningVCApp\/GuideNFCViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10472,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/NFCScanningVCApp\/GuideNFCViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11106,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",

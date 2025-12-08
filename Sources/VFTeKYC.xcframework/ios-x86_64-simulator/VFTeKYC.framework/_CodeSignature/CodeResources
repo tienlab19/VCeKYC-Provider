@@ -52,6 +52,10 @@
 		<data>
 		zF/w3yFKEnpxaUYy2mvbK0SEGGI=
 		</data>
+		<key>GuideNFCViewController.nib</key>
+		<data>
+		0V3/Wll6OsnkSbORcQkn1+Zdluo=
+		</data>
 		<key>Headers/VFTeKYC-Swift.h</key>
 		<data>
 		LNYMhwlTQsQSBysxZ3elYMoWXNk=
@@ -74,11 +78,11 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		cotZkabzxw4KparNz2hSewKs/D4=
+		+XrR0NUc/Oud0ycCA/zcMaucgVs=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		f560bKycgnC7vWHY4bReVk2txGo=
+		0PWvClEwArBcnCJUunSM9rn1bCY=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -86,11 +90,11 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		f560bKycgnC7vWHY4bReVk2txGo=
+		0PWvClEwArBcnCJUunSM9rn1bCY=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QLaxqb690ZKl8n0eCKl4Xi/nRkg=
+		fqBFOkHxg6quipP4EOjUwDVzigc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -151,6 +155,10 @@
 		<key>YTPlayer.html</key>
 		<data>
 		bDU1XsmSIVu0iWZkOV7TFoN7A30=
+		</data>
+		<key>guide_nfc.gif</key>
+		<data>
+		C0WKZjtQ3Gf9SWtsxcsetxYf38U=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -239,6 +247,13 @@
 			JLwtVcU7S0zkw07kakpCpOF5h1mgKCmvbZGUNwc9/bc=
 			</data>
 		</dict>
+		<key>GuideNFCViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			boVwX/fyKBqC4OI6jb3w5Z6QKLyZqUiw3q6FSm/l+KQ=
+			</data>
+		</dict>
 		<key>Headers/VFTeKYC-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -271,14 +286,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nNU7KEs5VA6TovbBZ/xiE1I7eSs6Lsk/Lxyn30vK6j8=
+			WJxh8+YuKBob95y56msOaZSKDlAW+vPW7zDq6xFjyJY=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yaSY3lKCV4d+rg7LKep3K3N5x0Y2BFoVMMe3GHqkkEY=
+			VSN3E0oLDgt+pb+/h+6Regx0nv4ZQGkBpj2AFIms5s4=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -292,14 +307,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yaSY3lKCV4d+rg7LKep3K3N5x0Y2BFoVMMe3GHqkkEY=
+			VSN3E0oLDgt+pb+/h+6Regx0nv4ZQGkBpj2AFIms5s4=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4MQE9f6v/bvTYTGk4l/ZUXnzTKgSxnWvqvYmN15GzQg=
+			gkFHFdyYK6mxHJrAkDHHvoVCUatu3BLIstca0KcmbZ0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -405,6 +420,13 @@
 			<key>hash2</key>
 			<data>
 			V8P5qw1fk18Dg5WgmzXvh7F3RZaRmJrpmaEn1kZhBF8=
+			</data>
+		</dict>
+		<key>guide_nfc.gif</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Leh3illeWMi54BEthZD3Sa5cUM3J/znFCjbGB0pT2QA=
 			</data>
 		</dict>
 	</dict>
