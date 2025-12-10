@@ -26874,6 +26874,106 @@
           },
           {
             "kind": "Var",
+            "name": "NotSupportedOnThisDevice",
+            "printedName": "NotSupportedOnThisDevice",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VFTeKYC.NFCPassportReaderError.Type) -> (Swift.String) -> VFTeKYC.NFCPassportReaderError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> VFTeKYC.NFCPassportReaderError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCPassportReaderError",
+                        "printedName": "VFTeKYC.NFCPassportReaderError",
+                        "usr": "s:7VFTeKYC22NFCPassportReaderErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VFTeKYC.NFCPassportReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCPassportReaderError",
+                        "printedName": "VFTeKYC.NFCPassportReaderError",
+                        "usr": "s:7VFTeKYC22NFCPassportReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7VFTeKYC22NFCPassportReaderErrorO24NotSupportedOnThisDeviceyACSScACmF",
+            "mangledName": "$s7VFTeKYC22NFCPassportReaderErrorO24NotSupportedOnThisDeviceyACSScACmF",
+            "moduleName": "VFTeKYC"
+          },
+          {
+            "kind": "Var",
+            "name": "Other",
+            "printedName": "Other",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VFTeKYC.NFCPassportReaderError.Type) -> (Swift.String) -> VFTeKYC.NFCPassportReaderError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> VFTeKYC.NFCPassportReaderError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCPassportReaderError",
+                        "printedName": "VFTeKYC.NFCPassportReaderError",
+                        "usr": "s:7VFTeKYC22NFCPassportReaderErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VFTeKYC.NFCPassportReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCPassportReaderError",
+                        "printedName": "VFTeKYC.NFCPassportReaderError",
+                        "usr": "s:7VFTeKYC22NFCPassportReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7VFTeKYC22NFCPassportReaderErrorO5OtheryACSScACmF",
+            "mangledName": "$s7VFTeKYC22NFCPassportReaderErrorO5OtheryACSScACmF",
+            "moduleName": "VFTeKYC"
+          },
+          {
+            "kind": "Var",
             "name": "errorDescription",
             "printedName": "errorDescription",
             "children": [
@@ -41856,7 +41956,7 @@
           {
             "kind": "Function",
             "name": "chipReaderVCApp",
-            "printedName": "chipReaderVCApp(birthdate:expiryDate:documentNumber:fromVC:customDisplayMessage:completion:completed:)",
+            "printedName": "chipReaderVCApp(birthdate:expiryDate:documentNumber:fromVC:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -41888,71 +41988,9 @@
                 "usr": "c:objc(cs)UIViewController"
               },
               {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((VFTeKYC.NFCViewDisplayMessage) -> Swift.String?)?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(VFTeKYC.NFCViewDisplayMessage) -> Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.String?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NFCViewDisplayMessage",
-                        "printedName": "VFTeKYC.NFCViewDisplayMessage",
-                        "usr": "s:7VFTeKYC21NFCViewDisplayMessageO"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(VFTeKYC.ChipCardInfo?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "VFTeKYC.ChipCardInfo?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ChipCardInfo",
-                        "printedName": "VFTeKYC.ChipCardInfo",
-                        "usr": "s:7VFTeKYC12ChipCardInfoV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(VFTeKYC.NFCPassportModel?, VFTeKYC.NFCPassportReaderError?) -> ()",
+                "printedName": "(VFTeKYC.ChipCardInfo?, VFTeKYC.NFCPassportReaderError?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -41962,18 +42000,18 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(VFTeKYC.NFCPassportModel?, VFTeKYC.NFCPassportReaderError?)",
+                    "printedName": "(VFTeKYC.ChipCardInfo?, VFTeKYC.NFCPassportReaderError?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "VFTeKYC.NFCPassportModel?",
+                        "printedName": "VFTeKYC.ChipCardInfo?",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "NFCPassportModel",
-                            "printedName": "VFTeKYC.NFCPassportModel",
-                            "usr": "s:7VFTeKYC16NFCPassportModelC"
+                            "name": "ChipCardInfo",
+                            "printedName": "VFTeKYC.ChipCardInfo",
+                            "usr": "s:7VFTeKYC12ChipCardInfoV"
                           }
                         ],
                         "usr": "s:Sq"
@@ -41998,8 +42036,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7VFTeKYC0A6KYCSDKC15chipReaderVCApp9birthdate10expiryDate14documentNumber6fromVC20customDisplayMessage10completion9completedySS_S2SSo16UIViewControllerCSSSgAA07NFCViewoP0OcSgyAA12ChipCardInfoVSgcyAA16NFCPassportModelCSg_AA0yE5ErrorOSgtctFZ",
-            "mangledName": "$s7VFTeKYC0A6KYCSDKC15chipReaderVCApp9birthdate10expiryDate14documentNumber6fromVC20customDisplayMessage10completion9completedySS_S2SSo16UIViewControllerCSSSgAA07NFCViewoP0OcSgyAA12ChipCardInfoVSgcyAA16NFCPassportModelCSg_AA0yE5ErrorOSgtctFZ",
+            "usr": "s:7VFTeKYC0A6KYCSDKC15chipReaderVCApp9birthdate10expiryDate14documentNumber6fromVC10completionySS_S2SSo16UIViewControllerCyAA12ChipCardInfoVSg_AA011NFCPassportE5ErrorOSgtctFZ",
+            "mangledName": "$s7VFTeKYC0A6KYCSDKC15chipReaderVCApp9birthdate10expiryDate14documentNumber6fromVC10completionySS_S2SSo16UIViewControllerCyAA12ChipCardInfoVSg_AA011NFCPassportE5ErrorOSgtctFZ",
             "moduleName": "VFTeKYC",
             "static": true,
             "intro_iOS": "13",
@@ -137765,49 +137803,49 @@
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/NFCScanningVCApp\/GuideNFCViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1121,
+      "offset": 1146,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/NFCScanningVCApp\/GuideNFCViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1157,
+      "offset": 1182,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/NFCScanningVCApp\/GuideNFCViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1183,
+      "offset": 1208,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/NFCScanningVCApp\/GuideNFCViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9530,
+      "offset": 9375,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/NFCScanningVCApp\/GuideNFCViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10231,
+      "offset": 10076,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/NFCScanningVCApp\/GuideNFCViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10472,
+      "offset": 10317,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/NFCScanningVCApp\/GuideNFCViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11106,
+      "offset": 10951,
       "length": 1,
       "value": "0"
     },
