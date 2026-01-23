@@ -918,8 +918,6 @@ public enum NFCPassportReaderError : Swift.Error {
   case InvalidHashAlgorithmSpecified
   case InvalidDataPassed(Swift.String)
   case NotYetSupported(Swift.String)
-  case NotSupportedOnThisDevice(Swift.String)
-  case Other(Swift.String)
 }
 @available(iOS 13, macOS 10.15, *)
 extension VFTeKYC.NFCPassportReaderError : Foundation.LocalizedError {
@@ -1488,10 +1486,6 @@ extension VFTeKYC.RedirectHandler where Self == VFTeKYC.Redirector {
   #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 13, *)
   public static func startNFCReader(birthdate: Swift.String, expiryDate: Swift.String, documentNumber: Swift.String, fromVC: UIKit.UIViewController, customDisplayMessage: ((VFTeKYC.NFCViewDisplayMessage) -> Swift.String?)? = nil, completion: @escaping (_ response: Swift.Int) -> Swift.Void, completed: @escaping (VFTeKYC.NFCPassportModel?, VFTeKYC.NFCPassportReaderError?) -> ())
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  @available(iOS 13, *)
-  public static func chipReaderVCApp(birthdate: Swift.String, expiryDate: Swift.String, documentNumber: Swift.String, fromVC: UIKit.UIViewController, completion: @escaping (_ response: VFTeKYC.ChipCardInfo?, _ error: VFTeKYC.NFCPassportReaderError?) -> Swift.Void)
   #endif
   @objc deinit
 }
