@@ -14,7 +14,7 @@
 		</data>
 		<key>ChipNFCReaderViewController.nib</key>
 		<data>
-		DGyLvl4sO+Tzx+P/23jvBT1pcrM=
+		dN5Cjbtki1JdONgnK6PzJ+1ybNc=
 		</data>
 		<key>DialogCameraPermissionVC.nib</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		uEL0zyaa+2yabIU+C0TgmbsCWvQ=
+		YHB79po4ou7/pLn5T0W1e8rLLmU=
 		</data>
 		<key>InputEkycViewcontroller.nib</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		cotZkabzxw4KparNz2hSewKs/D4=
+		/eblRH6yfq3NoZ4mE2jkHF7s/XQ=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QLaxqb690ZKl8n0eCKl4Xi/nRkg=
+		Md3f38EpC2e7fbU3TEega1jgle0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -173,7 +173,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ncGq/eGGcdB03xdn18+L8Rt0xAlYCK9cLUYroy4HHzI=
+			f9qYq9VIKzyPlGI1tiYksvpslFQ4IYJvlXwJ4fil7gU=
 			</data>
 		</dict>
 		<key>DialogCameraPermissionVC.nib</key>
@@ -271,7 +271,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nNU7KEs5VA6TovbBZ/xiE1I7eSs6Lsk/Lxyn30vK6j8=
+			tqq4tAX2AHEXPq1MWZ7LGYPHLpTrxROlgS5e2wmtG2w=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -299,7 +299,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4MQE9f6v/bvTYTGk4l/ZUXnzTKgSxnWvqvYmN15GzQg=
+			LppZZaEehn67RjLukSZM1VT0Byckrb52xx8nBGIY+dI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
