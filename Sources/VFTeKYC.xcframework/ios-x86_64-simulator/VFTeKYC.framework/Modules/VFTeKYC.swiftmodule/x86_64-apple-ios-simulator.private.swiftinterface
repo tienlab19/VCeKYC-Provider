@@ -4723,6 +4723,9 @@ open class ClosureEventMonitor : VFTeKYC.EventMonitor {
   @objc deinit
 }
 public struct LivenessResponseModel : Swift.Codable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func toJSONString(prettyPrinted: Swift.Bool = false, convertKeysToSnakeCase: Swift.Bool = true) -> Swift.String?
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
