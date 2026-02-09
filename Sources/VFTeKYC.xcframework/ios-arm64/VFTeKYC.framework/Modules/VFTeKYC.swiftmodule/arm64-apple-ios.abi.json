@@ -2436,92 +2436,6 @@
           },
           {
             "kind": "Var",
-            "name": "token",
-            "printedName": "token",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7VFTeKYC0A9KYCConfigC5tokenSSvp",
-            "mangledName": "$s7VFTeKYC0A9KYCConfigC5tokenSSvp",
-            "moduleName": "VFTeKYC",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7VFTeKYC0A9KYCConfigC5tokenSSvg",
-                "mangledName": "$s7VFTeKYC0A9KYCConfigC5tokenSSvg",
-                "moduleName": "VFTeKYC",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7VFTeKYC0A9KYCConfigC5tokenSSvs",
-                "mangledName": "$s7VFTeKYC0A9KYCConfigC5tokenSSvs",
-                "moduleName": "VFTeKYC",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7VFTeKYC0A9KYCConfigC5tokenSSvM",
-                "mangledName": "$s7VFTeKYC0A9KYCConfigC5tokenSSvM",
-                "moduleName": "VFTeKYC",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "isFirstLogin",
             "printedName": "isFirstLogin",
             "children": [
@@ -2607,9 +2521,95 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "bearToken",
+            "printedName": "bearToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7VFTeKYC0A9KYCConfigC9bearTokenSSvp",
+            "mangledName": "$s7VFTeKYC0A9KYCConfigC9bearTokenSSvp",
+            "moduleName": "VFTeKYC",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7VFTeKYC0A9KYCConfigC9bearTokenSSvg",
+                "mangledName": "$s7VFTeKYC0A9KYCConfigC9bearTokenSSvg",
+                "moduleName": "VFTeKYC",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7VFTeKYC0A9KYCConfigC9bearTokenSSvs",
+                "mangledName": "$s7VFTeKYC0A9KYCConfigC9bearTokenSSvs",
+                "moduleName": "VFTeKYC",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7VFTeKYC0A9KYCConfigC9bearTokenSSvM",
+                "mangledName": "$s7VFTeKYC0A9KYCConfigC9bearTokenSSvM",
+                "moduleName": "VFTeKYC",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "initVFTeKYC",
-            "printedName": "initVFTeKYC(_:_:_:_:_:_:_:_:_:_:)",
+            "printedName": "initVFTeKYC(_:_:_:_:_:_:_:_:_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2682,30 +2682,11 @@
                   }
                 ],
                 "usr": "s:SD"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
               }
             ],
             "declKind": "Func",
-            "usr": "s:7VFTeKYC0A9KYCConfigC04initaB0yySS_S7SSDySSypGAEtF",
-            "mangledName": "$s7VFTeKYC0A9KYCConfigC04initaB0yySS_S7SSDySSypGAEtF",
+            "usr": "s:7VFTeKYC0A9KYCConfigC04initaB0yySS_S7SSDySSypGtF",
+            "mangledName": "$s7VFTeKYC0A9KYCConfigC04initaB0yySS_S7SSDySSypGtF",
             "moduleName": "VFTeKYC",
             "declAttributes": [
               "AccessControl"
@@ -39815,7 +39796,7 @@
           {
             "kind": "Function",
             "name": "initVFTeKYC",
-            "printedName": "initVFTeKYC(frontSideUrl:backSideUrl:verifyQrcodeUrl:verifyFaceUrl:faceMatchingUrl:chipReaderUrl:chatBotUrl:token:headers:params:)",
+            "printedName": "initVFTeKYC(frontSideUrl:backSideUrl:verifyQrcodeUrl:verifyFaceUrl:faceMatchingUrl:chipReaderUrl:chatBotUrl:bearToken:headers:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -39888,30 +39869,11 @@
                   }
                 ],
                 "usr": "s:SD"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
               }
             ],
             "declKind": "Func",
-            "usr": "s:7VFTeKYC0A6KYCSDKC04initaB012frontSideUrl04backfG0012verifyQrcodeG00i4FaceG0012faceMatchingG0010chipReaderG007chatBotG05token7headers6paramsySS_S7SSDySSypGAOtFZ",
-            "mangledName": "$s7VFTeKYC0A6KYCSDKC04initaB012frontSideUrl04backfG0012verifyQrcodeG00i4FaceG0012faceMatchingG0010chipReaderG007chatBotG05token7headers6paramsySS_S7SSDySSypGAOtFZ",
+            "usr": "s:7VFTeKYC0A6KYCSDKC04initaB012frontSideUrl04backfG0012verifyQrcodeG00i4FaceG0012faceMatchingG0010chipReaderG007chatBotG09bearToken7headersySS_S7SSDySSypGtFZ",
+            "mangledName": "$s7VFTeKYC0A6KYCSDKC04initaB012frontSideUrl04backfG0012verifyQrcodeG00i4FaceG0012faceMatchingG0010chipReaderG007chatBotG09bearToken7headersySS_S7SSDySSypGtFZ",
             "moduleName": "VFTeKYC",
             "static": true,
             "declAttributes": [
@@ -40395,12 +40357,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((VFTeKYC.VFTVerifyFaceLiveness) -> ())?",
+                "printedName": "((VFTeKYC.LivenessResponseModel) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(VFTeKYC.VFTVerifyFaceLiveness) -> ()",
+                    "printedName": "(VFTeKYC.LivenessResponseModel) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -40409,9 +40371,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "VFTVerifyFaceLiveness",
-                        "printedName": "VFTeKYC.VFTVerifyFaceLiveness",
-                        "usr": "s:7VFTeKYC21VFTVerifyFaceLivenessV"
+                        "name": "LivenessResponseModel",
+                        "printedName": "VFTeKYC.LivenessResponseModel",
+                        "usr": "s:7VFTeKYC21LivenessResponseModelV"
                       }
                     ]
                   }
@@ -40459,8 +40421,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7VFTeKYC0A6KYCSDKC13faceliveness25image6params9leftImage05rightH07success6failedySo7UIImageCSg_SDySSypGA2MyAA21VFTVerifyFaceLivenessVcSgySS_SStcSgtFZ",
-            "mangledName": "$s7VFTeKYC0A6KYCSDKC13faceliveness25image6params9leftImage05rightH07success6failedySo7UIImageCSg_SDySSypGA2MyAA21VFTVerifyFaceLivenessVcSgySS_SStcSgtFZ",
+            "usr": "s:7VFTeKYC0A6KYCSDKC13faceliveness25image6params9leftImage05rightH07success6failedySo7UIImageCSg_SDySSypGA2MyAA21LivenessResponseModelVcSgySS_SStcSgtFZ",
+            "mangledName": "$s7VFTeKYC0A6KYCSDKC13faceliveness25image6params9leftImage05rightH07success6failedySo7UIImageCSg_SDySSypGA2MyAA21LivenessResponseModelVcSgySS_SStcSgtFZ",
             "moduleName": "VFTeKYC",
             "static": true,
             "declAttributes": [
@@ -41832,7 +41794,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int) -> ()",
+                "printedName": "(Swift.Int, Any?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -41841,16 +41803,36 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Tuple",
+                    "printedName": "(Swift.Int, Any?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Any?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:7VFTeKYC0A6KYCSDKC9startEKYC6fromVC10completionySo16UIViewControllerC_ySictFZ",
-            "mangledName": "$s7VFTeKYC0A6KYCSDKC9startEKYC6fromVC10completionySo16UIViewControllerC_ySictFZ",
+            "usr": "s:7VFTeKYC0A6KYCSDKC9startEKYC6fromVC10completionySo16UIViewControllerC_ySi_ypSgtctFZ",
+            "mangledName": "$s7VFTeKYC0A6KYCSDKC9startEKYC6fromVC10completionySo16UIViewControllerC_ySi_ypSgtctFZ",
             "moduleName": "VFTeKYC",
             "static": true,
             "declAttributes": [
@@ -41878,7 +41860,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int) -> ()",
+                "printedName": "(Swift.Int, Any?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -41887,16 +41869,36 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Tuple",
+                    "printedName": "(Swift.Int, Any?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Any?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:7VFTeKYC0A6KYCSDKC13startLiveness6fromVC10completionySo16UIViewControllerC_ySictFZ",
-            "mangledName": "$s7VFTeKYC0A6KYCSDKC13startLiveness6fromVC10completionySo16UIViewControllerC_ySictFZ",
+            "usr": "s:7VFTeKYC0A6KYCSDKC13startLiveness6fromVC10completionySo16UIViewControllerC_ySi_ypSgtctFZ",
+            "mangledName": "$s7VFTeKYC0A6KYCSDKC13startLiveness6fromVC10completionySo16UIViewControllerC_ySi_ypSgtctFZ",
             "moduleName": "VFTeKYC",
             "static": true,
             "declAttributes": [
@@ -41924,7 +41926,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int) -> ()",
+                "printedName": "(Swift.Int, Any?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -41933,16 +41935,36 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Tuple",
+                    "printedName": "(Swift.Int, Any?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Any?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:7VFTeKYC0A6KYCSDKC21startVerifyBiometrics6fromVC10completionySo16UIViewControllerC_ySictFZ",
-            "mangledName": "$s7VFTeKYC0A6KYCSDKC21startVerifyBiometrics6fromVC10completionySo16UIViewControllerC_ySictFZ",
+            "usr": "s:7VFTeKYC0A6KYCSDKC21startVerifyBiometrics6fromVC10completionySo16UIViewControllerC_ySi_ypSgtctFZ",
+            "mangledName": "$s7VFTeKYC0A6KYCSDKC21startVerifyBiometrics6fromVC10completionySo16UIViewControllerC_ySi_ypSgtctFZ",
             "moduleName": "VFTeKYC",
             "static": true,
             "declAttributes": [
@@ -42155,7 +42177,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int) -> ()",
+                "printedName": "(Swift.Int, Any?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -42164,9 +42186,29 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Tuple",
+                    "printedName": "(Swift.Int, Any?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Any?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
                   }
                 ]
               },
@@ -42219,8 +42261,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7VFTeKYC0A6KYCSDKC14startNFCReader9birthdate10expiryDate14documentNumber6fromVC20customDisplayMessage10completion9completedySS_S2SSo16UIViewControllerCSSSgAA07NFCViewnO0OcSgySicyAA16NFCPassportModelCSg_AA0U11ReaderErrorOSgtctFZ",
-            "mangledName": "$s7VFTeKYC0A6KYCSDKC14startNFCReader9birthdate10expiryDate14documentNumber6fromVC20customDisplayMessage10completion9completedySS_S2SSo16UIViewControllerCSSSgAA07NFCViewnO0OcSgySicyAA16NFCPassportModelCSg_AA0U11ReaderErrorOSgtctFZ",
+            "usr": "s:7VFTeKYC0A6KYCSDKC14startNFCReader9birthdate10expiryDate14documentNumber6fromVC20customDisplayMessage10completion9completedySS_S2SSo16UIViewControllerCSSSgAA07NFCViewnO0OcSgySi_ypSgtcyAA16NFCPassportModelCSg_AA0U11ReaderErrorOSgtctFZ",
+            "mangledName": "$s7VFTeKYC0A6KYCSDKC14startNFCReader9birthdate10expiryDate14documentNumber6fromVC20customDisplayMessage10completion9completedySS_S2SSo16UIViewControllerCSSSgAA07NFCViewnO0OcSgySi_ypSgtcyAA16NFCPassportModelCSg_AA0U11ReaderErrorOSgtctFZ",
             "moduleName": "VFTeKYC",
             "static": true,
             "intro_iOS": "13",
@@ -127715,6 +127757,111 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "VFTeKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LivenessResponseModel",
+        "printedName": "LivenessResponseModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessResponseModel",
+                "printedName": "VFTeKYC.LivenessResponseModel",
+                "usr": "s:7VFTeKYC21LivenessResponseModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7VFTeKYC21LivenessResponseModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7VFTeKYC21LivenessResponseModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "VFTeKYC",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7VFTeKYC21LivenessResponseModelV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s7VFTeKYC21LivenessResponseModelV6encode2toys7Encoder_p_tKF",
+            "moduleName": "VFTeKYC",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7VFTeKYC21LivenessResponseModelV",
+        "mangledName": "$s7VFTeKYC21LivenessResponseModelV",
+        "moduleName": "VFTeKYC",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "VFTeKYC"
       },
       {
@@ -133166,17 +133313,17 @@
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/VFTeKYCConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 546,
-      "length": 2,
-      "value": "\"\""
+      "kind": "BooleanLiteral",
+      "offset": 553,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/VFTeKYCConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 579,
-      "length": 5,
-      "value": "false"
+      "kind": "StringLiteral",
+      "offset": 586,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Helpers\/DataManager.swift",
@@ -133825,35 +133972,35 @@
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ChipNFCReaderViewController.swift",
       "kind": "StringLiteral",
-      "offset": 545,
+      "offset": 562,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ChipNFCReaderViewController.swift",
       "kind": "StringLiteral",
-      "offset": 581,
+      "offset": 598,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ChipNFCReaderViewController.swift",
       "kind": "StringLiteral",
-      "offset": 607,
+      "offset": 624,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ChipNFCReaderViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11912,
+      "offset": 11949,
       "length": 8,
       "value": "\"yyMMdd\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ChipNFCReaderViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11953,
+      "offset": 11990,
       "length": 12,
       "value": "\"dd\/MM\/yyyy\""
     },
@@ -133944,7 +134091,7 @@
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/FaceLivenessViewController\/FaceLivenessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 377,
+      "offset": 394,
       "length": 5,
       "value": "false"
     },
@@ -136079,7 +136226,7 @@
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/QRScannerView\/QRResultView\/QRResultViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 473,
+      "offset": 491,
       "length": 5,
       "value": "false"
     },
@@ -137997,7 +138144,7 @@
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Base\/VFTBaseNetworking.swift",
       "kind": "Dictionary",
-      "offset": 4103,
+      "offset": 4052,
       "length": 3,
       "value": "[]"
     },
@@ -138858,14 +139005,14 @@
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChatBotManager\/ChatBotManager.swift",
       "kind": "StringLiteral",
-      "offset": 1627,
+      "offset": 1631,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChatBotManager\/ChatBotManager.swift",
       "kind": "StringLiteral",
-      "offset": 1667,
+      "offset": 1671,
       "length": 5,
       "value": "\"iOS\""
     },
