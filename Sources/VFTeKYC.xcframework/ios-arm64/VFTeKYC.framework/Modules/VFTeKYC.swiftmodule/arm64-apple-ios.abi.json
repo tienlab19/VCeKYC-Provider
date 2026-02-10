@@ -127670,49 +127670,6 @@
         "printedName": "LivenessResponseModel",
         "children": [
           {
-            "kind": "Function",
-            "name": "toJSONString",
-            "printedName": "toJSONString(prettyPrinted:convertKeysToSnakeCase:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7VFTeKYC21LivenessResponseModelV12toJSONString13prettyPrinted22convertKeysToSnakeCaseSSSgSb_SbtF",
-            "mangledName": "$s7VFTeKYC21LivenessResponseModelV12toJSONString13prettyPrinted22convertKeysToSnakeCaseSSSgSb_SbtF",
-            "moduleName": "VFTeKYC",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -139413,34 +139370,6 @@
       "offset": 2336,
       "length": 3,
       "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Network\/Model\/LivenessResponseModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 913,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Network\/Model\/LivenessResponseModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 951,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Network\/Model\/LivenessResponseModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4143,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Network\/Model\/LivenessResponseModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4181,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
