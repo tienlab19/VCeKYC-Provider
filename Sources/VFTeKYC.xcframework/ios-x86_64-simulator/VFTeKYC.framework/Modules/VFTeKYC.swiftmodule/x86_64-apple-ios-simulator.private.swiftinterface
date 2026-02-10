@@ -4728,6 +4728,10 @@ public struct LivenessResponseModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct Customer : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 extension VFTeKYC.Reachability.NetworkStatus : Swift.Equatable {}
 extension VFTeKYC.Reachability.NetworkStatus : Swift.Hashable {}
 extension VFTeKYC.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType : Swift.Equatable {}

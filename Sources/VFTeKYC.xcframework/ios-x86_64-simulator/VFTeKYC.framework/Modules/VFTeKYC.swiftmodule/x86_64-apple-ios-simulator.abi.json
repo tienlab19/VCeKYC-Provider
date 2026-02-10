@@ -127803,6 +127803,102 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "Customer",
+        "printedName": "Customer",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Customer",
+                "printedName": "VFTeKYC.Customer",
+                "usr": "s:7VFTeKYC8CustomerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7VFTeKYC8CustomerV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7VFTeKYC8CustomerV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "VFTeKYC",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7VFTeKYC8CustomerV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s7VFTeKYC8CustomerV6encode2toys7Encoder_p_tKF",
+            "moduleName": "VFTeKYC",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7VFTeKYC8CustomerV",
+        "mangledName": "$s7VFTeKYC8CustomerV",
+        "moduleName": "VFTeKYC",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -139335,14 +139431,14 @@
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Network\/Model\/LivenessResponseModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3797,
+      "offset": 4143,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Network\/Model\/LivenessResponseModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3835,
+      "offset": 4181,
       "length": 4,
       "value": "true"
     },
