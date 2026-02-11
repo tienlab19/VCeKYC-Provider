@@ -90,7 +90,7 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SaypFRqwerK4Uv2Z/QeaNQDLVrU=
+		NuLSN2mBEmH1r+fNg4mDaKmZh1A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -114,11 +114,11 @@
 		</data>
 		<key>QRResultViewController.nib</key>
 		<data>
-		1WGKbD34IiDMxFu52SJji8gPpGI=
+		XmqWDT4bycnQGHeKRPlpDSlBumA=
 		</data>
 		<key>QRScannerViewController.nib</key>
 		<data>
-		hHuxNc4/g37YV9H1mSBgIhBeVgU=
+		qkmmhMkddXq2SO+D5s4izhjQlTQ=
 		</data>
 		<key>ScanQRVC.nib</key>
 		<data>
@@ -295,7 +295,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OsobUAVXSMOiMzJzZSmMkzgYvIpRqcqLECvdwhOPQ9w=
+			cRa1IpXrJxOgXb+lw6fMJZUoX3voJWdVN2nNehacSIM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -337,14 +337,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iCI11JpHZdBTHQNQlK5Jd6dBtiNLvYKqUOJXgpxEJiE=
+			mOsVnBDIlZ9jBKd89ZxhCxpBJ4S7/W9s1ibe/PbDKTg=
 			</data>
 		</dict>
 		<key>QRScannerViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4BJN/lbReZ4vYss7hNHZv1HNxGYkRqXYxwtAznyfqWY=
+			MAsuXhMVfvM2So5glhJ2vgjyn6pAvakii4Z00Jels1o=
 			</data>
 		</dict>
 		<key>ScanQRVC.nib</key>
