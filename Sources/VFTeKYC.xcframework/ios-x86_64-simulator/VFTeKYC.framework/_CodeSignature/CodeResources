@@ -34,7 +34,7 @@
 		</data>
 		<key>FaceLivenessResulViewController.nib</key>
 		<data>
-		eydu1QYShCFvplfS741JdE8jCjs=
+		hkbJblHa7jM17/jJyzgurNWpfzg=
 		</data>
 		<key>FaceLivenessViewController.nib</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		C2DXwEcD/vzSJh4zVqJsLwB4lFk=
+		4S2cS19YUGOMCh5zdwDQNj6npf8=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+pzQ1ZaQa1fsYhJ5Y3QkQUic86k=
+		oYO9V0Smop0uTABQgFINshzld14=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -86,11 +86,11 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+pzQ1ZaQa1fsYhJ5Y3QkQUic86k=
+		oYO9V0Smop0uTABQgFINshzld14=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FI+gQGNb9QJC1zEUTNAc/4OUtX8=
+		OAre0hNkbIfLmgOGJZNR3xFY1Zw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>OcrGuidePageViewController.nib</key>
 		<data>
-		2BGSK42Yzh5lLTWC660mWRRmDJM=
+		UAMa96DhraQwXgOD3sthIJNbl2Y=
 		</data>
 		<key>PlayScanNFCToturialViewcontroller.nib</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>QRResultViewController.nib</key>
 		<data>
-		XmqWDT4bycnQGHeKRPlpDSlBumA=
+		cGCWZTmmPYmQAoldvkEnpahlm3o=
 		</data>
 		<key>QRScannerViewController.nib</key>
 		<data>
@@ -204,7 +204,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			celB0Vj0+7fxw1jBjh9APvspyQzMFKlqxYmKMWLa9zQ=
+			DUjgyYV4iHa75WKqa6eDLpsX76QmtPG6fUWy1pE+svk=
 			</data>
 		</dict>
 		<key>FaceLivenessViewController.nib</key>
@@ -267,14 +267,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jwyc6ki3hUeR9up6YQ4bYCvof/7ug3qGlBWkrOt3xfw=
+			xHwfBFVeazHk2asK2QxyfEzRAqmuHpoTkGcT7jtYl4E=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uY1u2+/zoBg3XucLsLt5uMeY5vFukp+1ivJA35hlWIw=
+			VYPgLlcfflX96QB4zw5WVBKE0WqmERq6TpRi1pk1vDo=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -288,14 +288,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uY1u2+/zoBg3XucLsLt5uMeY5vFukp+1ivJA35hlWIw=
+			VYPgLlcfflX96QB4zw5WVBKE0WqmERq6TpRi1pk1vDo=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fbLQ1q7sRTa0O/ej4k6k3mKIfHklcigYTeSf5M2t0N4=
+			sWBdgxDJ9b0TtBHx+MOUU1EW6UaDURG3SeznEWmx+FA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -316,7 +316,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aVkIgVzfsrA4R7uYKbCGZKCYFtICncjVtOJsUTXmQ3E=
+			30Uk8CjPUvS/OUJFQeh7s0RE52oOJ0+RVHQZkT0Vi3A=
 			</data>
 		</dict>
 		<key>PlayScanNFCToturialViewcontroller.nib</key>
@@ -337,7 +337,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mOsVnBDIlZ9jBKd89ZxhCxpBJ4S7/W9s1ibe/PbDKTg=
+			zKl/ZRa3x4NEl3ZzpJ4Z5FFUyZJrqeclk9HdFuSzNDg=
 			</data>
 		</dict>
 		<key>QRScannerViewController.nib</key>
