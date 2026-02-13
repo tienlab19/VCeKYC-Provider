@@ -54,7 +54,7 @@
 		</data>
 		<key>Headers/VFTeKYC-Swift.h</key>
 		<data>
-		LNYMhwlTQsQSBysxZ3elYMoWXNk=
+		J/VmdUOWMyh5MI3L1EPtgzqcCvc=
 		</data>
 		<key>Headers/VFTeKYC.h</key>
 		<data>
@@ -71,6 +71,26 @@
 		<key>LoginVC.nib</key>
 		<data>
 		fY6ugnXvKyJYsRFbo/o5Wo05ZNg=
+		</data>
+		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		3+kypCO7K1fTcn8sz8je+uYhmZg=
+		</data>
+		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		8TyMtlnCdxX8XbcRmR51QGHgsJg=
+		</data>
+		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		OkXvDqTpEb+e1m+GCnS94GHE5NE=
+		</data>
+		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		8TyMtlnCdxX8XbcRmR51QGHgsJg=
+		</data>
+		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		q5VSBWU0dRl0LOAliG4BSPgEW6s=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -239,7 +259,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			71qvfYcMR975+8OFz0dQEoQBRYxoaiGuo6SywSGCa7Q=
+			rlQeN4wIFrb0/5qvZs8mZZRJoemJ9GYqkMaI8ZWd9MM=
 			</data>
 		</dict>
 		<key>Headers/VFTeKYC.h</key>
@@ -261,6 +281,41 @@
 			<key>hash2</key>
 			<data>
 			h4bTLBJRPWJ4+V0uT5MxbIV5MwHzvGigv54+We6Ptzc=
+			</data>
+		</dict>
+		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			D/xXmttfU3wpIqv4gjHzUQtGzoE5uMlrxv1mwdSvOyA=
+			</data>
+		</dict>
+		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EkpWkklG0ybTzO507/Cppxe9i/p1vjj4O+fsDQ0zUDk=
+			</data>
+		</dict>
+		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vCdRvU82tYqmKnnjYsShd+c2ZhnhplZarVkg/lk4M2g=
+			</data>
+		</dict>
+		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EkpWkklG0ybTzO507/Cppxe9i/p1vjj4O+fsDQ0zUDk=
+			</data>
+		</dict>
+		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Dtp8eXR635vj7Sij5tByWKobTnHebJciajtdOnTM6sk=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
