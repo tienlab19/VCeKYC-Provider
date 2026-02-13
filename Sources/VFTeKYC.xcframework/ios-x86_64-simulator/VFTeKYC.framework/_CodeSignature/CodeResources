@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		sZL3CLtHv7M35hNVRuh6y8PIfAE=
+		V9daA4uxYuWhrziDGVDkvr3cLCk=
 		</data>
 		<key>CameraOCRViewcontroller.nib</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		4S2cS19YUGOMCh5zdwDQNj6npf8=
+		LUzIX9nGwWPSWaX40hNkNan3364=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		OAre0hNkbIfLmgOGJZNR3xFY1Zw=
+		LidOYnjXTteSfcMCD4kV9ODMUp0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -155,7 +155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0JJc0D38yuaL6j5CiuRmLXORADQHfWuuxCNBpLSFLdA=
+			DL7KveOi9DBT1n/QIGHMV8MNHVQmOnJIWx+0vQCpofs=
 			</data>
 		</dict>
 		<key>CameraOCRViewcontroller.nib</key>
@@ -267,7 +267,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xHwfBFVeazHk2asK2QxyfEzRAqmuHpoTkGcT7jtYl4E=
+			7GN8waZbkMW7slx9ts7cdyuaY1fVUE9R5hPwNsJfk+Y=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -295,7 +295,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sWBdgxDJ9b0TtBHx+MOUU1EW6UaDURG3SeznEWmx+FA=
+			5OVrmws48b/hGpJyNHs4e6MhpEp1sFb2somE7rh4i2c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
