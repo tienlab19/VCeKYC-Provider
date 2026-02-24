@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		bve8NRWVyrBkjas6Oxj1JhCdxSI=
+		WJxgCXcZd6URC9zh46xfHlPFy9g=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -90,11 +90,11 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		q5VSBWU0dRl0LOAliG4BSPgEW6s=
+		S9pWh30hz+EQLVJ3uCbY0pJF0Ak=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		bve8NRWVyrBkjas6Oxj1JhCdxSI=
+		WJxgCXcZd6URC9zh46xfHlPFy9g=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -110,11 +110,15 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LidOYnjXTteSfcMCD4kV9ODMUp0=
+		Xu9RTmVYIyO2IHZEQ0USCmBJKUo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		dWLuXWv/2SujlxN2yV9n4Vc3xpw=
+		</data>
+		<key>NFCScanningViewController.nib</key>
+		<data>
+		5C56NsXQJsEdZUiNTdfcGfK0Esw=
 		</data>
 		<key>ORCInfoVC.nib</key>
 		<data>
@@ -126,7 +130,7 @@
 		</data>
 		<key>PlayScanNFCToturialViewcontroller.nib</key>
 		<data>
-		Ict4sn/OwPjD8Cn3zfT7PI/Oyog=
+		VQVwkBcjwwdqWKSH2TPsj3vHgX0=
 		</data>
 		<key>QRGuideViewController.nib</key>
 		<data>
@@ -287,7 +291,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gnv/QlP13XbxXq4kidp8ZRo+63oKo1S+Cv7HUTbA6Aw=
+			4W6X9+BHSN7J/lercEC6WdV0cq/dq5MQBaeCeStr9Iw=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -315,14 +319,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Dtp8eXR635vj7Sij5tByWKobTnHebJciajtdOnTM6sk=
+			H6ISYPKBIeJxZ1+2yQZJocNF8x5zHOQ8+RRsXGQYyhI=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gnv/QlP13XbxXq4kidp8ZRo+63oKo1S+Cv7HUTbA6Aw=
+			4W6X9+BHSN7J/lercEC6WdV0cq/dq5MQBaeCeStr9Iw=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -350,7 +354,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5OVrmws48b/hGpJyNHs4e6MhpEp1sFb2somE7rh4i2c=
+			Xg0HokxFe3VY/VxvgIVJDacpzNq2kyZjZ0FQ1jnvWDk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -358,6 +362,13 @@
 			<key>hash2</key>
 			<data>
 			JS0aXdNXQB1yb6h8YnGAKCgki7JQ+GONpKDqjB+P1Tc=
+			</data>
+		</dict>
+		<key>NFCScanningViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XYcDfQ5UqNmRf90oBbesRlMCX5aHLr46SQdr6XbsM50=
 			</data>
 		</dict>
 		<key>ORCInfoVC.nib</key>
@@ -378,7 +389,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AkqcJY9zGAX/0pXRJ7S52fIzHF3lkRnhj9k0o2B6FNg=
+			tG/rnjkrjZAshYnIMLrBK22l7DnGnKA+SVz1q7ajLZ0=
 			</data>
 		</dict>
 		<key>QRGuideViewController.nib</key>
