@@ -135003,14 +135003,14 @@
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ChipNFCReaderViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14711,
+      "offset": 15043,
       "length": 8,
       "value": "\"yyMMdd\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ChipNFCReaderViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14752,
+      "offset": 15084,
       "length": 12,
       "value": "\"dd\/MM\/yyyy\""
     },
