@@ -64,7 +64,8 @@ public struct ORCFront : Swift.Codable {
   public var cccd: Swift.String
   public var expiredDate: Swift.String
   public var dob: Swift.String
-  public func initVFTeKYC(_ frontSideUrl: Swift.String, _ backSideUrl: Swift.String, _ verifyQrcodeUrl: Swift.String, _ verifyFaceUrl: Swift.String, _ chipReaderUrl: Swift.String, _ chatBotUrl: Swift.String, _ bearToken: Swift.String, _ isOCR: Swift.Bool, _ isNFC: Swift.Bool, _ isLiveNessCheck: Swift.Bool, _ cccd: Swift.String, _ expiredDate: Swift.String, _ dob: Swift.String, _ headers: [Swift.String : Any])
+  public var phoneNumber: Swift.String
+  public func initVFTeKYC(_ frontSideUrl: Swift.String, _ backSideUrl: Swift.String, _ verifyQrcodeUrl: Swift.String, _ verifyFaceUrl: Swift.String, _ chipReaderUrl: Swift.String, _ chatBotUrl: Swift.String, _ bearToken: Swift.String, _ isOCR: Swift.Bool, _ isNFC: Swift.Bool, _ isLiveNessCheck: Swift.Bool, _ cccd: Swift.String, _ expiredDate: Swift.String, _ dob: Swift.String, _ phoneNumber: Swift.String, _ headers: [Swift.String : Any])
   @objc deinit
 }
 public struct VFTSimilarityIdAndSelfie : Swift.Codable {
@@ -1437,7 +1438,7 @@ extension VFTeKYC.RedirectHandler where Self == VFTeKYC.Redirector {
   #endif
 }
 @_hasMissingDesignatedInitializers public class VFTeKYCSDK {
-  public static func initVFTeKYC(frontSideUrl: Swift.String, backSideUrl: Swift.String, verifyQrcodeUrl: Swift.String, verifyFaceUrl: Swift.String, chipReaderUrl: Swift.String, chatBotUrl: Swift.String, bearToken: Swift.String, isOCR: Swift.Bool, isNFC: Swift.Bool, isLivenessCheck: Swift.Bool, cccd: Swift.String, expiredDate: Swift.String, dob: Swift.String, headers: [Swift.String : Any])
+  public static func initVFTeKYC(frontSideUrl: Swift.String, backSideUrl: Swift.String, verifyQrcodeUrl: Swift.String, verifyFaceUrl: Swift.String, chipReaderUrl: Swift.String, chatBotUrl: Swift.String, bearToken: Swift.String, isOCR: Swift.Bool, isNFC: Swift.Bool, isLivenessCheck: Swift.Bool, cccd: Swift.String, expiredDate: Swift.String, dob: Swift.String, phoneNumber: Swift.String, headers: [Swift.String : Any])
   #if compiler(>=5.3) && $NonescapableTypes
   public static func backSideVinFast(image: UIKit.UIImage, success: ((VFTeKYC.VCBackSideModel) -> Swift.Void)?, failed: ((Swift.String, Swift.String) -> Swift.Void)?)
   #endif
