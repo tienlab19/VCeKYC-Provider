@@ -2156,7 +2156,7 @@ extension VFTeKYC.Session : VFTeKYC.RequestDelegate {
 }
 extension UIKit.UIViewController {
   #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency public func showDialog(title: Swift.String? = "Xác thực chưa thành công", message: Swift.String, isSucces: Swift.Bool? = false, data: VFTeKYC.JSON? = nil, completion: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public func showDialog(title: Swift.String? = "Xác thực chưa thành công", message: Swift.String, isSucces: Swift.Bool? = false, data: VFTeKYC.JSON? = nil, completion: (() -> Swift.Void)? = nil, cancel: (() -> Swift.Void)? = nil, tryAgain: (() -> Swift.Void)? = nil)
   #endif
 }
 @_hasMissingDesignatedInitializers public class VFTResult {
