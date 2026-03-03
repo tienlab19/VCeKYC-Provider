@@ -1440,22 +1440,22 @@ extension VFTeKYC.RedirectHandler where Self == VFTeKYC.Redirector {
 @_hasMissingDesignatedInitializers public class VFTeKYCSDK {
   public static func initVFTeKYC(frontSideUrl: Swift.String, backSideUrl: Swift.String, verifyQrcodeUrl: Swift.String, verifyFaceUrl: Swift.String, chipReaderUrl: Swift.String, chatBotUrl: Swift.String, bearToken: Swift.String, isOCR: Swift.Bool, isNFC: Swift.Bool, isLivenessCheck: Swift.Bool, cccd: Swift.String, expiredDate: Swift.String, dob: Swift.String, phoneNumber: Swift.String, headers: [Swift.String : Any])
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func backSideVinFast(image: UIKit.UIImage, success: ((VFTeKYC.VCBackSideModel) -> Swift.Void)?, failed: ((Swift.String, Swift.String) -> Swift.Void)?)
+  public static func backSideVinFast(image: UIKit.UIImage, success: ((VFTeKYC.VCBackSideModel) -> Swift.Void)?, failed: ((Swift.String, Swift.String, _ data: VFTeKYC.JSON?) -> Swift.Void)?)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func frontSideVinFast(image: UIKit.UIImage, success: ((VFTeKYC.VFTFrontSide) -> Swift.Void)?, failed: ((Swift.String, Swift.String) -> Swift.Void)?)
+  public static func frontSideVinFast(image: UIKit.UIImage, success: ((VFTeKYC.VFTFrontSide) -> Swift.Void)?, failed: ((Swift.String, Swift.String, _ data: VFTeKYC.JSON?) -> Swift.Void)?)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func verifyQRCode_VF(image: UIKit.UIImage?, success: ((VFTeKYC.VFTQrResult?) -> Swift.Void)?, failed: ((Swift.String, Swift.String) -> Swift.Void)?)
+  public static func verifyQRCode_VF(image: UIKit.UIImage?, success: ((VFTeKYC.VFTQrResult?) -> Swift.Void)?, failed: ((Swift.String, Swift.String, _ data: VFTeKYC.JSON?) -> Swift.Void)?)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func faceliveness1(image: UIKit.UIImage?, success: ((VFTeKYC.VFTVerifyFaceLiveness) -> Swift.Void)?, failed: ((Swift.String, Swift.String) -> Swift.Void)?)
+  public static func faceliveness1(image: UIKit.UIImage?, success: ((VFTeKYC.VFTVerifyFaceLiveness) -> Swift.Void)?, failed: ((Swift.String, Swift.String, _ data: VFTeKYC.JSON?) -> Swift.Void)?)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func faceliveness2(image: UIKit.UIImage?, params: [Swift.String : Any], leftImage: UIKit.UIImage?, rightImage: UIKit.UIImage?, success: ((VFTeKYC.LivenessResponseModel) -> Swift.Void)?, failed: ((Swift.String, Swift.String) -> Swift.Void)?)
+  public static func faceliveness2(image: UIKit.UIImage?, params: [Swift.String : Any], leftImage: UIKit.UIImage?, rightImage: UIKit.UIImage?, success: ((VFTeKYC.LivenessResponseModel) -> Swift.Void)?, failed: ((Swift.String, Swift.String, _ data: VFTeKYC.JSON?) -> Swift.Void)?)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func facematching(success: ((VFTeKYC.VFTFaceMatching) -> Swift.Void)?, failed: ((Swift.String, Swift.String) -> Swift.Void)?)
+  public static func facematching(success: ((VFTeKYC.VFTFaceMatching) -> Swift.Void)?, failed: ((Swift.String, Swift.String, _ data: VFTeKYC.JSON?) -> Swift.Void)?)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public static func frontSide(image: UIKit.UIImage, success: ((VFTeKYC.VFTFrontSide) -> Swift.Void)?, failed: ((Swift.String) -> Swift.Void)?)
@@ -2156,7 +2156,7 @@ extension VFTeKYC.Session : VFTeKYC.RequestDelegate {
 }
 extension UIKit.UIViewController {
   #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency public func showDialog(title: Swift.String? = "Xác thực chưa thành công", message: Swift.String, isSucces: Swift.Bool? = false, completion: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public func showDialog(title: Swift.String? = "Xác thực chưa thành công", message: Swift.String, isSucces: Swift.Bool? = false, data: VFTeKYC.JSON? = nil, completion: (() -> Swift.Void)? = nil)
   #endif
 }
 @_hasMissingDesignatedInitializers public class VFTResult {
