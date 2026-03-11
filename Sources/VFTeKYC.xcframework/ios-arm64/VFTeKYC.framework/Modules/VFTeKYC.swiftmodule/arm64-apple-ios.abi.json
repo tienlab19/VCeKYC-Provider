@@ -138968,57 +138968,64 @@
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/PopupDialog\/DialogViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 232,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/PopupDialog\/DialogViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 659,
+      "offset": 741,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/PopupDialog\/DialogViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 698,
+      "offset": 780,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/PopupDialog\/DialogViewController.swift",
       "kind": "StringLiteral",
-      "offset": 742,
+      "offset": 824,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/PopupDialog\/DialogViewController.swift",
       "kind": "StringLiteral",
-      "offset": 788,
+      "offset": 870,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/PopupDialog\/DialogViewController.swift",
       "kind": "StringLiteral",
-      "offset": 946,
+      "offset": 1028,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/PopupDialog\/DialogViewController.swift",
       "kind": "StringLiteral",
-      "offset": 998,
+      "offset": 1080,
       "length": 12,
       "value": "\"success_ic\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/PopupDialog\/DialogViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1101,
+      "offset": 1183,
       "length": 12,
       "value": "\"ic_blocked\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/PopupDialog\/DialogViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1204,
+      "offset": 1286,
       "length": 11,
       "value": "\"failed_ic\""
     },
