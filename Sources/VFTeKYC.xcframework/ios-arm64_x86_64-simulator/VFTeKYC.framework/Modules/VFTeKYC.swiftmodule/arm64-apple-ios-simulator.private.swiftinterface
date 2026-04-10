@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name VFTeKYC
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import AVFoundation
 import AudioToolbox
 import CoreImage.CIFilterBuiltins
@@ -59,13 +59,14 @@ public struct ORCFront : Swift.Codable {
   public var bearToken: Swift.String
   public var isFirstLogin: Swift.Bool
   public var isOCR: Swift.Bool
+  public var isQR: Swift.Bool
   public var isNFC: Swift.Bool
   public var isLivenessCheck: Swift.Bool
   public var cccd: Swift.String
   public var expiredDate: Swift.String
   public var dob: Swift.String
   public var phoneNumber: Swift.String
-  public func initVFTeKYC(_ frontSideUrl: Swift.String, _ backSideUrl: Swift.String, _ verifyQrcodeUrl: Swift.String, _ verifyFaceUrl: Swift.String, _ chipReaderUrl: Swift.String, _ chatBotUrl: Swift.String, _ bearToken: Swift.String, _ isOCR: Swift.Bool, _ isNFC: Swift.Bool, _ isLiveNessCheck: Swift.Bool, _ cccd: Swift.String, _ expiredDate: Swift.String, _ dob: Swift.String, _ phoneNumber: Swift.String, _ headers: [Swift.String : Any])
+  public func initVFTeKYC(_ frontSideUrl: Swift.String, _ backSideUrl: Swift.String, _ verifyQrcodeUrl: Swift.String, _ verifyFaceUrl: Swift.String, _ chipReaderUrl: Swift.String, _ chatBotUrl: Swift.String, _ bearToken: Swift.String, _ isOCR: Swift.Bool, _ isQR: Swift.Bool, _ isNFC: Swift.Bool, _ isLiveNessCheck: Swift.Bool, _ cccd: Swift.String, _ expiredDate: Swift.String, _ dob: Swift.String, _ phoneNumber: Swift.String, _ headers: [Swift.String : Any])
   @objc deinit
 }
 public struct VFTSimilarityIdAndSelfie : Swift.Codable {
@@ -1438,7 +1439,7 @@ extension VFTeKYC.RedirectHandler where Self == VFTeKYC.Redirector {
   #endif
 }
 @_hasMissingDesignatedInitializers public class VFTeKYCSDK {
-  public static func initVFTeKYC(frontSideUrl: Swift.String, backSideUrl: Swift.String, verifyQrcodeUrl: Swift.String, verifyFaceUrl: Swift.String, chipReaderUrl: Swift.String, chatBotUrl: Swift.String, bearToken: Swift.String, isOCR: Swift.Bool, isNFC: Swift.Bool, isLivenessCheck: Swift.Bool, cccd: Swift.String, expiredDate: Swift.String, dob: Swift.String, phoneNumber: Swift.String, headers: [Swift.String : Any])
+  public static func initVFTeKYC(frontSideUrl: Swift.String, backSideUrl: Swift.String, verifyQrcodeUrl: Swift.String, verifyFaceUrl: Swift.String, chipReaderUrl: Swift.String, chatBotUrl: Swift.String, bearToken: Swift.String, isOCR: Swift.Bool, isQR: Swift.Bool, isNFC: Swift.Bool, isLivenessCheck: Swift.Bool, cccd: Swift.String, expiredDate: Swift.String, dob: Swift.String, phoneNumber: Swift.String, headers: [Swift.String : Any])
   #if compiler(>=5.3) && $NonescapableTypes
   public static func backSideVinFast(image: UIKit.UIImage, success: ((VFTeKYC.VCBackSideModel) -> Swift.Void)?, failed: ((Swift.String, Swift.String, _ data: VFTeKYC.JSON?) -> Swift.Void)?)
   #endif
