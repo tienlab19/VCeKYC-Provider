@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name VFTeKYC
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import AVFoundation
 import AudioToolbox
 import CoreImage.CIFilterBuiltins
@@ -21,6 +21,7 @@ import LocalAuthentication
 @_exported import LocalAuthentication/*.LAError*/
 import MobileCoreServices
 import OpenSSL
+import Security
 import Swift
 import SwiftUI
 import SystemConfiguration
@@ -55,6 +56,7 @@ public struct ORCFront : Swift.Codable {
   public var faceMatchingUrl: Swift.String
   public var verifyFaceUrl: Swift.String
   public var chipReaderUrl: Swift.String
+  public var privateKey: Swift.String
   public var isFirstLogin: Swift.Bool
   public func initVFTeKYC(_ frontSideUrl: Swift.String, _ backSideUrl: Swift.String, _ verifyQrcodeUrl: Swift.String, _ verifyFaceUrl: Swift.String, _ faceMatchingUrl: Swift.String, _ chipReaderUrl: Swift.String, _ headers: [Swift.String : Any])
   @objc deinit
