@@ -1020,6 +1020,9 @@ public class NFCPassportModel {
   public var nationality: Swift.String {
     get
   }
+  public var oldIdentify: Swift.String {
+    get
+  }
   public var lastName: Swift.String {
     get
   }
