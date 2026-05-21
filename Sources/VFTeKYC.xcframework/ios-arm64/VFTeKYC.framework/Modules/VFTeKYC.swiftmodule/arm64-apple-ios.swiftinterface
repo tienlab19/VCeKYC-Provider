@@ -1491,28 +1491,28 @@ extension VFTeKYC.RedirectHandler where Self == VFTeKYC.Redirector {
   public static func startOCR(fromVC: UIKit.UIViewController, setShowScreenIntroOCR: Swift.Bool, onFrontSideSuccess: ((VFTeKYC.VFTFrontSide, UIKit.UIImage) -> Swift.Void)?, onFrontSideFailure: ((Swift.String) -> Swift.Void)?, onVerifyQRImage: ((VFTeKYC.VFTQrResult?, UIKit.UIImage) -> Swift.Void)?, onVerifyQRFailure: ((Swift.String) -> Swift.Void)?, onBackSideSuccess: ((VFTeKYC.VFTBackSide, UIKit.UIImage) -> Swift.Void)?, onBackSideFailure: ((Swift.String) -> Swift.Void)?)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func startEKYC(fromVC: UIKit.UIViewController, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
+  public static func startEKYC(fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func checkProfile(fromVC: UIKit.UIViewController, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
+  public static func checkProfile(fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func startLivenessStep(fromVC: UIKit.UIViewController, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
+  public static func startLivenessStep(fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func startNFCStep(fromVC: UIKit.UIViewController, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
+  public static func startNFCStep(fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func startEkycFullStep(fromVC: UIKit.UIViewController, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
+  public static func startEkycFullStep(fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func startOCR(fromVC: UIKit.UIViewController, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
+  public static func startOCR(fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public static func startLiveness(fromVC: UIKit.UIViewController, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func startVerifyBiometrics(fromVC: UIKit.UIViewController, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
+  public static func startVerifyBiometrics(fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 13, *)

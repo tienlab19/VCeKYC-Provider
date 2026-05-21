@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		XLIKBdKAu9BUZJoSt5C0mv7+s8M=
+		hVh2lYde3UesCbKgrDJP1usjeYg=
 		</data>
 		<key>CameraOCRViewcontroller.nib</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MDMzjZ9CFNCsU10/R7nQBC9KcmU=
+		FIzx4tHxZhpBknlPZMdclo36C0Q=
 		</data>
 		<key>InputEkycViewcontroller.nib</key>
 		<data>
@@ -78,11 +78,11 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		18wDKehKJ86tQIir8x1NUoolfwY=
+		lOsF52GkD1bfirDS/Z7pgMAHYeI=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+V0xozy4uUaSMyIU2oQzAAdFY+I=
+		55kFqHmuUisnhWRtCwLjHuRCEYQ=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -90,19 +90,19 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+V0xozy4uUaSMyIU2oQzAAdFY+I=
+		55kFqHmuUisnhWRtCwLjHuRCEYQ=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VHx5DJJp2dMioOeaq+hyvPAXVs8=
+		KzXVfkwyl70yCFkXsXz1qgUV4hs=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		18wDKehKJ86tQIir8x1NUoolfwY=
+		lOsF52GkD1bfirDS/Z7pgMAHYeI=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		1U7/O18AuA8PLg3t5z6fVn+dP+Y=
+		n5R/3/Uc+/2wOgC6C1cHdlbi2yI=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -110,11 +110,11 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		1U7/O18AuA8PLg3t5z6fVn+dP+Y=
+		n5R/3/Uc+/2wOgC6C1cHdlbi2yI=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zPhsI6ETQOu6mFsBpjdvuIxOPOk=
+		mB0fUhonZSFlRFNBU+rwanf0e54=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -179,7 +179,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YM4/CcwWz/AzhrvNXfBPrfu6kQ0s/Y8zxUCo/sXRsDM=
+			92DAP5VO4MX9p7lu/72fuMros/qLbqxWFsyMwThpi4c=
 			</data>
 		</dict>
 		<key>CameraOCRViewcontroller.nib</key>
@@ -298,14 +298,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NofDL8SWqLHIo1c3/966hQaMvvm/hMDze2NhkuBXllw=
+			CctVBQiAzampUEy4jIsIXVYLOutLvUkV3+afw3I+J5w=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kdksy/Lmt6naYzvd8isx6HZStjikiQlYhbDT5f404qQ=
+			n5wszjxOAxmOY0ldKHhtkni8AQ0NPBb7T8NHQ1Wb3i4=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -319,28 +319,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kdksy/Lmt6naYzvd8isx6HZStjikiQlYhbDT5f404qQ=
+			n5wszjxOAxmOY0ldKHhtkni8AQ0NPBb7T8NHQ1Wb3i4=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0IyKpJEsCZMJvG88d7/uEoU2GriGS74N7MGq+DsYX34=
+			2GlgngabF5S3H2lw9uor9+j3dya95+ktHXdiAhPRmlU=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NofDL8SWqLHIo1c3/966hQaMvvm/hMDze2NhkuBXllw=
+			CctVBQiAzampUEy4jIsIXVYLOutLvUkV3+afw3I+J5w=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Uz5yM4kjCB+rNnyhWATyitCQL4ZQaq54AJH88q7Admk=
+			6coCuIAiz0NgLNYarnJROTHOSFg2fxHgwgidth9WXmQ=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -354,14 +354,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Uz5yM4kjCB+rNnyhWATyitCQL4ZQaq54AJH88q7Admk=
+			6coCuIAiz0NgLNYarnJROTHOSFg2fxHgwgidth9WXmQ=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PwLDJlkrmh1qPH+UCuk7ENaiM/PPxs92yJPy7EEfh0A=
+			qQRe9T5fnqEswWtEhIm0TXIAKkKzQh5tYuT32bXI/dg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
