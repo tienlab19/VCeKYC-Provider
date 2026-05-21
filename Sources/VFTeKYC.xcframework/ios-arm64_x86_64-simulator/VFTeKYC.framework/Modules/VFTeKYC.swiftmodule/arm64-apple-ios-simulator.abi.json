@@ -43383,7 +43383,7 @@
           {
             "kind": "Function",
             "name": "startLiveness",
-            "printedName": "startLiveness(fromVC:completion:)",
+            "printedName": "startLiveness(fromVC:trackingHandler:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -43395,6 +43395,54 @@
                 "name": "UIViewController",
                 "printedName": "UIKit.UIViewController",
                 "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String, Swift.String?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String, Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeFunc",
@@ -43436,8 +43484,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7VFTeKYC0A6KYCSDKC13startLiveness6fromVC10completionySo16UIViewControllerC_ySi_ypSgtctFZ",
-            "mangledName": "$s7VFTeKYC0A6KYCSDKC13startLiveness6fromVC10completionySo16UIViewControllerC_ySi_ypSgtctFZ",
+            "usr": "s:7VFTeKYC0A6KYCSDKC13startLiveness6fromVC15trackingHandler10completionySo16UIViewControllerC_ySS_SSSgtcSgySi_ypSgtctFZ",
+            "mangledName": "$s7VFTeKYC0A6KYCSDKC13startLiveness6fromVC15trackingHandler10completionySo16UIViewControllerC_ySS_SSSgtcSgySi_ypSgtctFZ",
             "moduleName": "VFTeKYC",
             "static": true,
             "declAttributes": [
