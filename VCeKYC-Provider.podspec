@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.swift_version         = '5.0'
 
-  s.source = { :git => 'https://github.com/tienlab19/vcekyc-provider.git', :tag => s.version.to_s }
+  s.source = { :git => 'https://github.com/tienlab19/vcekyc-provider.git', :branch => 'eKYC-release-mwg' }
 
   s.source_files = 'Sources/VCeKYC-Provider/**/*.swift'
 
