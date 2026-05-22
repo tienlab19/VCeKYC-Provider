@@ -61134,6 +61134,13 @@
       },
       {
         "kind": "Import",
+        "name": "AudioToolbox",
+        "printedName": "AudioToolbox",
+        "declKind": "Import",
+        "moduleName": "VFTeKYC"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -81683,6 +81690,13 @@
         "kind": "Import",
         "name": "Vision",
         "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "VFTeKYC"
+      },
+      {
+        "kind": "Import",
+        "name": "AudioToolbox",
+        "printedName": "AudioToolbox",
         "declKind": "Import",
         "moduleName": "VFTeKYC"
       },
@@ -136189,44 +136203,163 @@
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/BaseCameraView.swift",
       "kind": "StringLiteral",
-      "offset": 825,
+      "offset": 845,
       "length": 23,
       "value": "\"camera.liveness.queue\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/BaseCameraView.swift",
       "kind": "StringLiteral",
-      "offset": 896,
+      "offset": 916,
       "length": 11,
       "value": "\"detection\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/BaseCameraView.swift",
       "kind": "Array",
-      "offset": 981,
+      "offset": 1001,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/BaseCameraView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1590,
+      "offset": 1610,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/BaseCameraView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1636,
+      "offset": 1656,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/BaseCameraView.swift",
       "kind": "BooleanLiteral",
-      "offset": 15458,
+      "offset": 1875,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/BaseCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16551,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/BaseCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28262,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/BaseCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28302,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/BaseCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28339,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/BaseCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28377,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/BaseCameraView.swift",
+      "kind": "StringLiteral",
+      "offset": 28468,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/BaseCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28511,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/BaseCameraView.swift",
+      "kind": "FloatLiteral",
+      "offset": 28542,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/BaseCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 30266,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/BaseCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 30342,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/BaseCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31393,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/BaseCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31515,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/BaseCameraView.swift",
+      "kind": "FloatLiteral",
+      "offset": 31525,
+      "length": 4,
+      "value": "0.35"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/BaseCameraView.swift",
+      "kind": "FloatLiteral",
+      "offset": 31537,
+      "length": 4,
+      "value": "0.35"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/BaseCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31550,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/BaseCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 36509,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/BaseCameraView.swift",
+      "kind": "FloatLiteral",
+      "offset": 36589,
+      "length": 3,
+      "value": "0.6"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Libraries\/EFQRCode\/EFQRCode+GIF.swift",
@@ -136951,17 +137084,101 @@
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/FaceLivenessViewController\/FaceLivenessProcessingVC\/FaceLivenessProcessingViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 698,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/FaceLivenessViewController\/FaceLivenessProcessingVC\/FaceLivenessProcessingViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 809,
+      "length": 4,
+      "value": "0.28"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/FaceLivenessViewController\/FaceLivenessProcessingVC\/FaceLivenessProcessingViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 863,
+      "length": 4,
+      "value": "0.30"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/FaceLivenessViewController\/FaceLivenessProcessingVC\/FaceLivenessProcessingViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 952,
+      "length": 2,
+      "value": "45"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/FaceLivenessViewController\/FaceLivenessProcessingVC\/FaceLivenessProcessingViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1040,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/FaceLivenessViewController\/FaceLivenessProcessingVC\/FaceLivenessProcessingViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1262,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/FaceLivenessViewController\/FaceLivenessProcessingVC\/FaceLivenessProcessingViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1466,
+      "length": 3,
+      "value": "1.2"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/FaceLivenessViewController\/FaceLivenessProcessingVC\/FaceLivenessProcessingViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1581,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/FaceLivenessViewController\/FaceLivenessProcessingVC\/FaceLivenessProcessingViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1633,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/FaceLivenessViewController\/FaceLivenessProcessingVC\/FaceLivenessProcessingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 692,
+      "offset": 1724,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/FaceLivenessViewController\/FaceLivenessProcessingVC\/FaceLivenessProcessingViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1826,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/FaceLivenessViewController\/FaceLivenessProcessingVC\/FaceLivenessProcessingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 889,
+      "offset": 1865,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/FaceLivenessViewController\/FaceLivenessProcessingVC\/FaceLivenessProcessingViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1916,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/FaceLivenessViewController\/FaceLivenessProcessingVC\/FaceLivenessProcessingViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2156,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Libraries\/EFQRCode\/UIImage++.swift",
@@ -137560,115 +137777,129 @@
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 824,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 863,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 903,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 946,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 988,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12214,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12354,
-      "length": 1,
-      "value": "8"
+      "kind": "FloatLiteral",
+      "offset": 839,
+      "length": 4,
+      "value": "0.18"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 12462,
-      "length": 3,
-      "value": "3.7"
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12497,
-      "length": 3,
-      "value": "896"
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13479,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13619,
-      "length": 1,
-      "value": "8"
+      "offset": 937,
+      "length": 4,
+      "value": "0.32"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 13727,
-      "length": 3,
-      "value": "3.7"
+      "offset": 1073,
+      "length": 4,
+      "value": "0.12"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1168,
+      "length": 4,
+      "value": "0.18"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1209,
+      "length": 4,
+      "value": "0.20"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13762,
+      "offset": 1344,
+      "length": 2,
+      "value": "45"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1409,
+      "length": 2,
+      "value": "45"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1465,
+      "length": 4,
+      "value": "15.0"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1618,
       "length": 3,
-      "value": "896"
+      "value": "1.2"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1818,
+      "length": 26,
+      "value": "\"facefarneo.session.queue\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1900,
+      "length": 26,
+      "value": "\"facefarnear.detect.queue\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2229,
+      "length": 4,
+      "value": "0.45"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2360,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2744,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14539,
+      "offset": 2920,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 14668,
-      "length": 3,
-      "value": "0.5"
+      "kind": "StringLiteral",
+      "offset": 3094,
+      "length": 15,
+      "value": "\"face_border_1\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
-      "kind": "Dictionary",
-      "offset": 15295,
-      "length": 3,
-      "value": "[]"
+      "kind": "StringLiteral",
+      "offset": 3222,
+      "length": 15,
+      "value": "\"face_border_3\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceDetectFarAndNearViewcontroller\/FaceDetectFarAndNearViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3350,
+      "length": 15,
+      "value": "\"face_border_5\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingInfoVC\/FaceMatchingInfoVC.swift",
@@ -137693,164 +137924,178 @@
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 830,
-      "length": 5,
-      "value": "false"
+      "kind": "FloatLiteral",
+      "offset": 697,
+      "length": 4,
+      "value": "0.25"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 858,
-      "length": 5,
-      "value": "false"
+      "kind": "FloatLiteral",
+      "offset": 746,
+      "length": 4,
+      "value": "0.28"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
-      "kind": "StringLiteral",
-      "offset": 979,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
-      "kind": "StringLiteral",
-      "offset": 1007,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1153,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
-      "kind": "StringLiteral",
-      "offset": 4373,
-      "length": 35,
-      "value": "\"Unable to access the back camera.\""
+      "kind": "FloatLiteral",
+      "offset": 790,
+      "length": 4,
+      "value": "0.30"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4997,
+      "offset": 838,
+      "length": 2,
+      "value": "45"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 898,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 944,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 988,
+      "length": 4,
+      "value": "0.12"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1038,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 1189,
+      "length": 3,
+      "value": "1.2"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1326,
+      "length": 22,
+      "value": "\"facematching.session\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1404,
+      "length": 21,
+      "value": "\"facematching.detect\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 1754,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 1884,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1975,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2218,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2296,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 5104,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5107,
+      "offset": 2347,
       "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5137,
-      "length": 2,
-      "value": "70"
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5140,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5176,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5215,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
-      "kind": "StringLiteral",
-      "offset": 5269,
-      "length": 15,
-      "value": "\"face_border_1\""
+      "value": "0"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 5618,
+      "offset": 2523,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5684,
-      "length": 1,
-      "value": "2"
+      "kind": "StringLiteral",
+      "offset": 2672,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
       "kind": "StringLiteral",
-      "offset": 5775,
-      "length": 31,
-      "value": "\"camera_frame_processing_queue\""
+      "offset": 2700,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19820,
-      "length": 1,
-      "value": "4"
+      "kind": "BooleanLiteral",
+      "offset": 2741,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19890,
-      "length": 1,
-      "value": "8"
+      "kind": "StringLiteral",
+      "offset": 3232,
+      "length": 15,
+      "value": "\"face_border_1\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 19963,
-      "length": 3,
-      "value": "3.7"
+      "kind": "StringLiteral",
+      "offset": 3346,
+      "length": 15,
+      "value": "\"face_border_3\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19998,
-      "length": 3,
-      "value": "896"
+      "kind": "StringLiteral",
+      "offset": 3460,
+      "length": 15,
+      "value": "\"face_border_4\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
-      "kind": "Dictionary",
-      "offset": 21748,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/FaceMatchingVC\/FaceMatchingVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21826,
-      "length": 1,
-      "value": "1"
+      "kind": "StringLiteral",
+      "offset": 3574,
+      "length": 15,
+      "value": "\"face_border_5\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Libraries\/Alamofire\/Request.swift",
