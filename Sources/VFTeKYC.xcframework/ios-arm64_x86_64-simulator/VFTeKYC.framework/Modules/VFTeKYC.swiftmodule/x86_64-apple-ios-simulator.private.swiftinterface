@@ -55,6 +55,7 @@ public struct ORCFront : Swift.Codable {
   public var verifyQrcodeUrl: Swift.String
   public var verifyFaceUrl: Swift.String
   public var chipReaderUrl: Swift.String
+  public var customerInfoEkyc: Swift.String
   public var chatBotUrl: Swift.String
   public var bearToken: Swift.String
   public var isFirstLogin: Swift.Bool
@@ -67,7 +68,7 @@ public struct ORCFront : Swift.Codable {
   public var expiredDate: Swift.String
   public var dob: Swift.String
   public var phoneNumber: Swift.String
-  public func initVFTeKYC(_ frontSideUrl: Swift.String, _ backSideUrl: Swift.String, _ verifyQrcodeUrl: Swift.String, _ verifyFaceUrl: Swift.String, _ chipReaderUrl: Swift.String, _ chatBotUrl: Swift.String, _ bearToken: Swift.String, _ isOCR: Swift.Bool, _ isFrontCard: Swift.Bool, _ isQR: Swift.Bool, _ isNFC: Swift.Bool, _ isLiveNessCheck: Swift.Bool, _ cccd: Swift.String, _ expiredDate: Swift.String, _ dob: Swift.String, _ phoneNumber: Swift.String, _ headers: [Swift.String : Any])
+  public func initVFTeKYC(_ frontSideUrl: Swift.String, _ backSideUrl: Swift.String, _ verifyQrcodeUrl: Swift.String, _ verifyFaceUrl: Swift.String, _ chipReaderUrl: Swift.String, _ customerInfoEkyc: Swift.String, _ chatBotUrl: Swift.String, _ bearToken: Swift.String, _ isOCR: Swift.Bool, _ isFrontCard: Swift.Bool, _ isQR: Swift.Bool, _ isNFC: Swift.Bool, _ isLiveNessCheck: Swift.Bool, _ cccd: Swift.String, _ expiredDate: Swift.String, _ dob: Swift.String, _ phoneNumber: Swift.String, _ headers: [Swift.String : Any])
   @objc deinit
 }
 public struct VFTSimilarityIdAndSelfie : Swift.Codable {
@@ -200,6 +201,7 @@ public struct VCBackSideModel : Swift.Codable {
   public let idCard: Swift.String?
   public let expireDate: Swift.String?
   public let dob: Swift.String?
+  public let customerId: Swift.Int?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -818,6 +820,19 @@ public class SecurityInfo {
   public func getObjectIdentifier() -> Swift.String
   public func getProtocolOIDString() -> Swift.String
   @objc deinit
+}
+public struct CustomerInfoEKYCModel : Swift.Codable {
+  public let identification: Swift.String?
+  public let customerName: Swift.String?
+  public let gender: Swift.String?
+  public let dateOfBirth: Swift.String?
+  public let issueDate: Swift.String?
+  public let expired: Swift.String?
+  public let location: Swift.String?
+  public let hometown: Swift.String?
+  public let address: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
 public class DataGroup14 : VFTeKYC.DataGroup {
@@ -1443,7 +1458,7 @@ extension VFTeKYC.RedirectHandler where Self == VFTeKYC.Redirector {
   #endif
 }
 @_hasMissingDesignatedInitializers public class VFTeKYCSDK {
-  public static func initVFTeKYC(frontSideUrl: Swift.String, backSideUrl: Swift.String, verifyQrcodeUrl: Swift.String, verifyFaceUrl: Swift.String, chipReaderUrl: Swift.String, chatBotUrl: Swift.String, bearToken: Swift.String, isOCR: Swift.Bool, isFrontCard: Swift.Bool, isQR: Swift.Bool, isNFC: Swift.Bool, isLivenessCheck: Swift.Bool, cccd: Swift.String, expiredDate: Swift.String, dob: Swift.String, phoneNumber: Swift.String, headers: [Swift.String : Any])
+  public static func initVFTeKYC(frontSideUrl: Swift.String, backSideUrl: Swift.String, verifyQrcodeUrl: Swift.String, verifyFaceUrl: Swift.String, chipReaderUrl: Swift.String, customerInfoEkyc: Swift.String, chatBotUrl: Swift.String, bearToken: Swift.String, isOCR: Swift.Bool, isFrontCard: Swift.Bool, isQR: Swift.Bool, isNFC: Swift.Bool, isLivenessCheck: Swift.Bool, cccd: Swift.String, expiredDate: Swift.String, dob: Swift.String, phoneNumber: Swift.String, headers: [Swift.String : Any])
   #if compiler(>=5.3) && $NonescapableTypes
   public static func backSideVinFast(image: UIKit.UIImage, success: ((VFTeKYC.VCBackSideModel) -> Swift.Void)?, failed: ((Swift.String, Swift.String, _ data: VFTeKYC.JSON?) -> Swift.Void)?)
   #endif
@@ -1501,6 +1516,9 @@ extension VFTeKYC.RedirectHandler where Self == VFTeKYC.Redirector {
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public static func startNFCStep(fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func startLoginEKYC(fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public static func startEkycFullStep(fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
