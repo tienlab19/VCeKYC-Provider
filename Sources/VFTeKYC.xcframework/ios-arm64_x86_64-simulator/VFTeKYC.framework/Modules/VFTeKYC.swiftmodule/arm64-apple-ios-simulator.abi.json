@@ -26296,6 +26296,162 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(identification:customerName:gender:dateOfBirth:issueDate:expired:location:hometown:address:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomerInfoEKYCModel",
+                "printedName": "VFTeKYC.CustomerInfoEKYCModel",
+                "usr": "s:7VFTeKYC21CustomerInfoEKYCModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7VFTeKYC21CustomerInfoEKYCModelV14identification12customerName6gender11dateOfBirth9issueDate7expired8location8hometown7addressACSSSg_A8Mtcfc",
+            "mangledName": "$s7VFTeKYC21CustomerInfoEKYCModelV14identification12customerName6gender11dateOfBirth9issueDate7expired8location8hometown7addressACSSSg_A8Mtcfc",
+            "moduleName": "VFTeKYC",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -137595,28 +137751,28 @@
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Model\/CustomerInfoEKYCModel.swift",
       "kind": "StringLiteral",
-      "offset": 483,
+      "offset": 1138,
       "length": 9,
       "value": "\"cccd_id\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Model\/CustomerInfoEKYCModel.swift",
       "kind": "StringLiteral",
-      "offset": 523,
+      "offset": 1178,
       "length": 11,
       "value": "\"full_name\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Model\/CustomerInfoEKYCModel.swift",
       "kind": "StringLiteral",
-      "offset": 585,
+      "offset": 1240,
       "length": 15,
       "value": "\"date_of_birth\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Model\/CustomerInfoEKYCModel.swift",
       "kind": "StringLiteral",
-      "offset": 631,
+      "offset": 1286,
       "length": 12,
       "value": "\"issue_date\""
     },
@@ -138347,6 +138503,76 @@
       "offset": 242,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5442,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
+      "kind": "StringLiteral",
+      "offset": 5518,
+      "length": 14,
+      "value": "\"001234567890\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
+      "kind": "StringLiteral",
+      "offset": 5560,
+      "length": 17,
+      "value": "\"NGUYỄN VĂN A\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
+      "kind": "StringLiteral",
+      "offset": 5599,
+      "length": 5,
+      "value": "\"Nam\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
+      "kind": "StringLiteral",
+      "offset": 5631,
+      "length": 12,
+      "value": "\"01\/01\/1990\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
+      "kind": "StringLiteral",
+      "offset": 5668,
+      "length": 12,
+      "value": "\"01\/01\/2021\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
+      "kind": "StringLiteral",
+      "offset": 5703,
+      "length": 12,
+      "value": "\"01\/01\/2031\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
+      "kind": "StringLiteral",
+      "offset": 5739,
+      "length": 34,
+      "value": "\"Cục Cảnh sát QLHC về TTXH\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
+      "kind": "StringLiteral",
+      "offset": 5797,
+      "length": 11,
+      "value": "\"Hà Nội\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
+      "kind": "StringLiteral",
+      "offset": 5831,
+      "length": 37,
+      "value": "\"123 Đường ABC, Quận 1, TP.HCM\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/NFCPassportReader\/Logging.swift",

@@ -831,6 +831,9 @@ public struct CustomerInfoEKYCModel : Swift.Codable {
   public let location: Swift.String?
   public let hometown: Swift.String?
   public let address: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(identification: Swift.String? = nil, customerName: Swift.String? = nil, gender: Swift.String? = nil, dateOfBirth: Swift.String? = nil, issueDate: Swift.String? = nil, expired: Swift.String? = nil, location: Swift.String? = nil, hometown: Swift.String? = nil, address: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -1194,6 +1197,7 @@ public class BACHandler {
   public func sessionKeys(data: [Swift.UInt8]) throws -> ([Swift.UInt8], [Swift.UInt8], [Swift.UInt8])
   @objc deinit
 }
+
 public enum LogLevel : Swift.Int, Swift.CaseIterable {
   case verbose
   case debug
