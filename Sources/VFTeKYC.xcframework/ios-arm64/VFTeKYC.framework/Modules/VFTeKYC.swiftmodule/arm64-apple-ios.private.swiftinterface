@@ -419,6 +419,13 @@ public struct VFTCardOverflowValid : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers public class VFTQrResult : Swift.Codable {
+  public var data: VFTeKYC.VFTQrData?
+  public var message: Swift.String?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class VFTQrData : Swift.Codable {
   public var cccdId: Swift.String?
   public var cmndId: Swift.String?
   public var fullName: Swift.String?
@@ -1511,6 +1518,9 @@ extension VFTeKYC.RedirectHandler where Self == VFTeKYC.Redirector {
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public static func startEKYC(fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func onActivePhysicCard(fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public static func checkProfile(fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
