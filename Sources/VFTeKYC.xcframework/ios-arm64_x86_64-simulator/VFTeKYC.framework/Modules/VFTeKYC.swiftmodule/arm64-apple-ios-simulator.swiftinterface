@@ -262,6 +262,7 @@ extension VFTeKYC.ParameterEncoder where Self == VFTeKYC.URLEncodedFormParameter
   }
   public static func urlEncodedForm(encoder: VFTeKYC.URLEncodedFormEncoder = URLEncodedFormEncoder(), destination: VFTeKYC.URLEncodedFormParameterEncoder.Destination = .methodDependent) -> VFTeKYC.URLEncodedFormParameterEncoder
 }
+
 public struct VFTDg13Info : Swift.Codable {
   public let ethnic: Swift.String?
   public let gender: Swift.String?
@@ -1204,7 +1205,6 @@ public class BACHandler {
   public func sessionKeys(data: [Swift.UInt8]) throws -> ([Swift.UInt8], [Swift.UInt8], [Swift.UInt8])
   @objc deinit
 }
-
 public enum LogLevel : Swift.Int, Swift.CaseIterable {
   case verbose
   case debug
@@ -1553,6 +1553,9 @@ extension VFTeKYC.RedirectHandler where Self == VFTeKYC.Redirector {
   #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 13, *)
   public static func startNFCReader(birthdate: Swift.String, expiryDate: Swift.String, documentNumber: Swift.String, fromVC: UIKit.UIViewController, customDisplayMessage: ((VFTeKYC.NFCViewDisplayMessage) -> Swift.String?)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void, completed: @escaping (VFTeKYC.NFCPassportModel?, VFTeKYC.NFCPassportReaderError?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func startVerifyVNeid(birthdate: Swift.String, expiryDate: Swift.String, documentNumber: Swift.String, fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, onShareConsent: (() -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
   #endif
   @objc deinit
 }
@@ -3103,6 +3106,7 @@ extension VFTeKYC.DownloadResponse {
   #endif
   @objc deinit
 }
+
 extension VFTeKYC.EFQRCode {
   #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "generate(for:encoding:size:backgroundColor:foregroundColor:watermark:watermarkMode:inputCorrectionLevel:icon:iconSize:watermarkIsTransparent:pointShape:mode:magnification:pointOffset:)")

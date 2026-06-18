@@ -8340,6 +8340,33 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VFTeKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VFTeKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VFTeKYC"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -33944,33 +33971,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "VFTeKYC",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "VFTeKYC",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "VFTeKYC"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -45438,6 +45438,165 @@
               "Final",
               "AccessControl",
               "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startVerifyVNeid",
+            "printedName": "startVerifyVNeid(birthdate:expiryDate:documentNumber:fromVC:trackingHandler:onShareConsent:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String, Swift.String?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String, Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int, Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Int, Any?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Any?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7VFTeKYC0A6KYCSDKC16startVerifyVNeid9birthdate10expiryDate14documentNumber6fromVC15trackingHandler14onShareConsent10completionySS_S2SSo16UIViewControllerCySS_SSSgtcSgyycSgySi_ypSgtctFZ",
+            "mangledName": "$s7VFTeKYC0A6KYCSDKC16startVerifyVNeid9birthdate10expiryDate14documentNumber6fromVC15trackingHandler14onShareConsent10completionySS_S2SSo16UIViewControllerCySS_SSSgtcSgyycSgySi_ypSgtctFZ",
+            "moduleName": "VFTeKYC",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -76657,6 +76816,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -76668,13 +76834,6 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -84833,6 +84992,33 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VFTeKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VFTeKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VFTeKYC"
       },
       {
         "kind": "Import",
@@ -110287,6 +110473,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -110298,13 +110491,6 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -133700,20 +133886,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
             "name": "UITraitChangeObservable",
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
@@ -137006,6 +137178,83 @@
       "value": "\"5.6.4\""
     },
     {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 242,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5442,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
+      "kind": "StringLiteral",
+      "offset": 5518,
+      "length": 14,
+      "value": "\"001234567890\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
+      "kind": "StringLiteral",
+      "offset": 5560,
+      "length": 17,
+      "value": "\"NGUYỄN VĂN A\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
+      "kind": "StringLiteral",
+      "offset": 5599,
+      "length": 5,
+      "value": "\"Nam\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
+      "kind": "StringLiteral",
+      "offset": 5631,
+      "length": 12,
+      "value": "\"01\/01\/1990\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
+      "kind": "StringLiteral",
+      "offset": 5668,
+      "length": 12,
+      "value": "\"01\/01\/2021\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
+      "kind": "StringLiteral",
+      "offset": 5703,
+      "length": 12,
+      "value": "\"01\/01\/2031\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
+      "kind": "StringLiteral",
+      "offset": 5739,
+      "length": 34,
+      "value": "\"Cục Cảnh sát QLHC về TTXH\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
+      "kind": "StringLiteral",
+      "offset": 5797,
+      "length": 11,
+      "value": "\"Hà Nội\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
+      "kind": "StringLiteral",
+      "offset": 5831,
+      "length": 37,
+      "value": "\"123 Đường ABC, Quận 1, TP.HCM\""
+    },
+    {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Helpers\/Custom\/DotCircleIndicator.swift",
       "kind": "Array",
       "offset": 113,
@@ -138929,83 +139178,6 @@
       "offset": 475,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 242,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5442,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
-      "kind": "StringLiteral",
-      "offset": 5518,
-      "length": 14,
-      "value": "\"001234567890\""
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
-      "kind": "StringLiteral",
-      "offset": 5560,
-      "length": 17,
-      "value": "\"NGUYỄN VĂN A\""
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
-      "kind": "StringLiteral",
-      "offset": 5599,
-      "length": 5,
-      "value": "\"Nam\""
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
-      "kind": "StringLiteral",
-      "offset": 5631,
-      "length": 12,
-      "value": "\"01\/01\/1990\""
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
-      "kind": "StringLiteral",
-      "offset": 5668,
-      "length": 12,
-      "value": "\"01\/01\/2021\""
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
-      "kind": "StringLiteral",
-      "offset": 5703,
-      "length": 12,
-      "value": "\"01\/01\/2031\""
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
-      "kind": "StringLiteral",
-      "offset": 5739,
-      "length": 34,
-      "value": "\"Cục Cảnh sát QLHC về TTXH\""
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
-      "kind": "StringLiteral",
-      "offset": 5797,
-      "length": 11,
-      "value": "\"Hà Nội\""
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ResultLoginEKYC\/ResultLoginEKYCView.swift",
-      "kind": "StringLiteral",
-      "offset": 5831,
-      "length": 37,
-      "value": "\"123 Đường ABC, Quận 1, TP.HCM\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/NFCPassportReader\/Logging.swift",
@@ -141381,6 +141553,90 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/VerifyVNeid\/VerifyVNeidView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 381,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/VerifyVNeid\/VerifyVNeidView.swift",
+      "kind": "StringLiteral",
+      "offset": 778,
+      "length": 9,
+      "value": "\"#BD081C\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/VerifyVNeid\/VerifyVNeidView.swift",
+      "kind": "StringLiteral",
+      "offset": 885,
+      "length": 9,
+      "value": "\"#F0F1F2\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/VerifyVNeid\/VerifyVNeidView.swift",
+      "kind": "StringLiteral",
+      "offset": 1001,
+      "length": 9,
+      "value": "\"#FCFCFC\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/VerifyVNeid\/VerifyVNeidView.swift",
+      "kind": "StringLiteral",
+      "offset": 1107,
+      "length": 9,
+      "value": "\"#222222\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/VerifyVNeid\/VerifyVNeidView.swift",
+      "kind": "StringLiteral",
+      "offset": 1212,
+      "length": 9,
+      "value": "\"#5A5A5A\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/VerifyVNeid\/VerifyVNeidView.swift",
+      "kind": "StringLiteral",
+      "offset": 1316,
+      "length": 9,
+      "value": "\"#189637\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/VerifyVNeid\/VerifyVNeidView.swift",
+      "kind": "StringLiteral",
+      "offset": 1434,
+      "length": 9,
+      "value": "\"#222222\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/VerifyVNeid\/VerifyVNeidView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1452,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/VerifyVNeid\/VerifyVNeidViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 636,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/VerifyVNeid\/VerifyVNeidViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 667,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/VerifyVNeid\/VerifyVNeidViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 703,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/BottomSheet.swift",
       "kind": "IntegerLiteral",
       "offset": 1873,
@@ -143560,203 +143816,224 @@
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7600,
+      "offset": 7596,
+      "length": 10,
+      "value": "\"ic_VNeID\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7735,
       "length": 12,
       "value": "\"ic_appIcon\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7735,
+      "offset": 7870,
       "length": 9,
       "value": "\"ic_back\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7877,
+      "offset": 8012,
       "length": 14,
       "value": "\"ic_biometric\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8020,
+      "offset": 8155,
+      "length": 12,
+      "value": "\"ic_bioscan\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8296,
       "length": 12,
       "value": "\"ic_blocked\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8174,
+      "offset": 8450,
       "length": 19,
       "value": "\"ic_camera_request\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8318,
+      "offset": 8594,
       "length": 10,
       "value": "\"ic_check\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8457,
+      "offset": 8733,
       "length": 12,
       "value": "\"ic_checked\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8594,
+      "offset": 8870,
       "length": 10,
       "value": "\"ic_close\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8725,
+      "offset": 9001,
       "length": 8,
       "value": "\"ic_eye\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8867,
+      "offset": 9143,
       "length": 15,
       "value": "\"ic_eye_closed\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9026,
+      "offset": 9302,
       "length": 20,
       "value": "\"ic_invalidate_chip\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9192,
+      "offset": 9468,
       "length": 21,
       "value": "\"ic_logo_vegafintech\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9353,
+      "offset": 9637,
+      "length": 22,
+      "value": "\"ic_markradio_checked\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9799,
       "length": 18,
       "value": "\"ic_no_connection\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9509,
+      "offset": 9955,
       "length": 17,
       "value": "\"ic_take_picture\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9649,
+      "offset": 10095,
       "length": 9,
       "value": "\"ic_tick\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9792,
+      "offset": 10238,
       "length": 15,
       "value": "\"ic_tick_large\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9947,
+      "offset": 10393,
       "length": 18,
       "value": "\"ic_validate_chip\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10083,
+      "offset": 10529,
       "length": 6,
       "value": "\"left\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10216,
+      "offset": 10662,
       "length": 11,
       "value": "\"notice_ic\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10352,
+      "offset": 10798,
       "length": 10,
       "value": "\"orc_info\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10484,
+      "offset": 10930,
       "length": 8,
       "value": "\"playIc\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10630,
+      "offset": 11076,
       "length": 17,
       "value": "\"qr-camera-frame\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10772,
+      "offset": 11218,
       "length": 10,
       "value": "\"qr-guide\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10907,
+      "offset": 11353,
       "length": 10,
       "value": "\"qr_frame\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11037,
+      "offset": 11483,
       "length": 7,
       "value": "\"right\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11173,
+      "offset": 11619,
       "length": 12,
       "value": "\"success_ic\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11313,
+      "offset": 11759,
       "length": 11,
       "value": "\"thumbnail\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11449,
+      "offset": 11895,
       "length": 10,
       "value": "\"vft_logo\""
     },
     {
       "filePath": "\/Users\/tientran\/Library\/Developer\/Xcode\/DerivedData\/VFTeKYC-bpizixggtmqvdbaolxpnvnskqzra\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VFTeKYC\/IntermediateBuildFilesPath\/VFTeKYC.build\/Release-iphoneos\/VFTeKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11583,
+      "offset": 12029,
       "length": 9,
       "value": "\"vietnam\""
     }
