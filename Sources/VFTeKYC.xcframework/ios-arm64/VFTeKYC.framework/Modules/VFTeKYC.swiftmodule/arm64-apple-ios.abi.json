@@ -138791,6 +138791,20 @@
       "value": "\"-2\""
     },
     {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/TVConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1418,
+      "length": 6,
+      "value": "\"1005\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/TVConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1451,
+      "length": 6,
+      "value": "\"1039\""
+    },
+    {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Libraries\/SwiftyJSON\/SwiftyJSON.swift",
       "kind": "IntegerLiteral",
       "offset": 1312,
