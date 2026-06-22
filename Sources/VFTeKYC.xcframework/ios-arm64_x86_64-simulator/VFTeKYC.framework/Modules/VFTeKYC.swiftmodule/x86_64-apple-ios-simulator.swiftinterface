@@ -1517,7 +1517,7 @@ extension VFTeKYC.RedirectHandler where Self == VFTeKYC.Redirector {
   public static func startOCR(fromVC: UIKit.UIViewController, setShowScreenIntroOCR: Swift.Bool, onFrontSideSuccess: ((VFTeKYC.VFTFrontSide, UIKit.UIImage) -> Swift.Void)?, onFrontSideFailure: ((Swift.String) -> Swift.Void)?, onVerifyQRImage: ((VFTeKYC.VFTQrResult?, UIKit.UIImage) -> Swift.Void)?, onVerifyQRFailure: ((Swift.String) -> Swift.Void)?, onBackSideSuccess: ((VFTeKYC.VFTBackSide, UIKit.UIImage) -> Swift.Void)?, onBackSideFailure: ((Swift.String) -> Swift.Void)?)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func startEKYC(fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
+  public static func startEKYC(fromVC: UIKit.UIViewController, isVNEID: Swift.Bool? = false, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, onShareConsent: (() -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public static func onActivePhysicCard(fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
@@ -1529,16 +1529,16 @@ extension VFTeKYC.RedirectHandler where Self == VFTeKYC.Redirector {
   public static func startLivenessStep(fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func startNFCStep(fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
+  public static func startNFCStep(fromVC: UIKit.UIViewController, isVNEID: Swift.Bool = false, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, onShareConsent: (() -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public static func startLoginEKYC(fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func startEkycFullStep(fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
+  public static func startEkycFullStep(fromVC: UIKit.UIViewController, isVNEID: Swift.Bool? = false, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, onShareConsent: (() -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func startOCR(fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
+  public static func startOCR(fromVC: UIKit.UIViewController, isVNEID: Swift.Bool? = false, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, onShareConsent: (() -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public static func startLiveness(fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
@@ -1555,7 +1555,7 @@ extension VFTeKYC.RedirectHandler where Self == VFTeKYC.Redirector {
   public static func startNFCReader(birthdate: Swift.String, expiryDate: Swift.String, documentNumber: Swift.String, fromVC: UIKit.UIViewController, customDisplayMessage: ((VFTeKYC.NFCViewDisplayMessage) -> Swift.String?)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void, completed: @escaping (VFTeKYC.NFCPassportModel?, VFTeKYC.NFCPassportReaderError?) -> ())
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func startVerifyVNeid(birthdate: Swift.String, expiryDate: Swift.String, documentNumber: Swift.String, fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, onShareConsent: (() -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
+  public static func startVerifyVNeid(fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, onShareConsent: (() -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
   #endif
   @objc deinit
 }

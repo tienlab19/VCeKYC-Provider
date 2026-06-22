@@ -44004,7 +44004,7 @@
           {
             "kind": "Function",
             "name": "startEKYC",
-            "printedName": "startEKYC(fromVC:trackingHandler:completion:)",
+            "printedName": "startEKYC(fromVC:isVNEID:trackingHandler:onShareConsent:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -44016,6 +44016,21 @@
                 "name": "UIViewController",
                 "printedName": "UIKit.UIViewController",
                 "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -44066,6 +44081,32 @@
                 "usr": "s:Sq"
               },
               {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "(Swift.Int, Any?) -> ()",
@@ -44105,8 +44146,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7VFTeKYC0A6KYCSDKC9startEKYC6fromVC15trackingHandler10completionySo16UIViewControllerC_ySS_SSSgtcSgySi_ypSgtctFZ",
-            "mangledName": "$s7VFTeKYC0A6KYCSDKC9startEKYC6fromVC15trackingHandler10completionySo16UIViewControllerC_ySS_SSSgtcSgySi_ypSgtctFZ",
+            "usr": "s:7VFTeKYC0A6KYCSDKC9startEKYC6fromVC7isVNEID15trackingHandler14onShareConsent10completionySo16UIViewControllerC_SbSgySS_SSSgtcSgyycSgySi_ypSgtctFZ",
+            "mangledName": "$s7VFTeKYC0A6KYCSDKC9startEKYC6fromVC7isVNEID15trackingHandler14onShareConsent10completionySo16UIViewControllerC_SbSgySS_SSSgtcSgyycSgySi_ypSgtctFZ",
             "moduleName": "VFTeKYC",
             "static": true,
             "declAttributes": [
@@ -44460,7 +44501,7 @@
           {
             "kind": "Function",
             "name": "startNFCStep",
-            "printedName": "startNFCStep(fromVC:trackingHandler:completion:)",
+            "printedName": "startNFCStep(fromVC:isVNEID:trackingHandler:onShareConsent:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -44472,6 +44513,13 @@
                 "name": "UIViewController",
                 "printedName": "UIKit.UIViewController",
                 "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
@@ -44522,6 +44570,32 @@
                 "usr": "s:Sq"
               },
               {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "(Swift.Int, Any?) -> ()",
@@ -44561,8 +44635,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7VFTeKYC0A6KYCSDKC12startNFCStep6fromVC15trackingHandler10completionySo16UIViewControllerC_ySS_SSSgtcSgySi_ypSgtctFZ",
-            "mangledName": "$s7VFTeKYC0A6KYCSDKC12startNFCStep6fromVC15trackingHandler10completionySo16UIViewControllerC_ySS_SSSgtcSgySi_ypSgtctFZ",
+            "usr": "s:7VFTeKYC0A6KYCSDKC12startNFCStep6fromVC7isVNEID15trackingHandler14onShareConsent10completionySo16UIViewControllerC_SbySS_SSSgtcSgyycSgySi_ypSgtctFZ",
+            "mangledName": "$s7VFTeKYC0A6KYCSDKC12startNFCStep6fromVC7isVNEID15trackingHandler14onShareConsent10completionySo16UIViewControllerC_SbySS_SSSgtcSgyycSgySi_ypSgtctFZ",
             "moduleName": "VFTeKYC",
             "static": true,
             "declAttributes": [
@@ -44688,7 +44762,7 @@
           {
             "kind": "Function",
             "name": "startEkycFullStep",
-            "printedName": "startEkycFullStep(fromVC:trackingHandler:completion:)",
+            "printedName": "startEkycFullStep(fromVC:isVNEID:trackingHandler:onShareConsent:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -44700,6 +44774,21 @@
                 "name": "UIViewController",
                 "printedName": "UIKit.UIViewController",
                 "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -44750,6 +44839,32 @@
                 "usr": "s:Sq"
               },
               {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "(Swift.Int, Any?) -> ()",
@@ -44789,8 +44904,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7VFTeKYC0A6KYCSDKC17startEkycFullStep6fromVC15trackingHandler10completionySo16UIViewControllerC_ySS_SSSgtcSgySi_ypSgtctFZ",
-            "mangledName": "$s7VFTeKYC0A6KYCSDKC17startEkycFullStep6fromVC15trackingHandler10completionySo16UIViewControllerC_ySS_SSSgtcSgySi_ypSgtctFZ",
+            "usr": "s:7VFTeKYC0A6KYCSDKC17startEkycFullStep6fromVC7isVNEID15trackingHandler14onShareConsent10completionySo16UIViewControllerC_SbSgySS_SSSgtcSgyycSgySi_ypSgtctFZ",
+            "mangledName": "$s7VFTeKYC0A6KYCSDKC17startEkycFullStep6fromVC7isVNEID15trackingHandler14onShareConsent10completionySo16UIViewControllerC_SbSgySS_SSSgtcSgyycSgySi_ypSgtctFZ",
             "moduleName": "VFTeKYC",
             "static": true,
             "declAttributes": [
@@ -44802,7 +44917,7 @@
           {
             "kind": "Function",
             "name": "startOCR",
-            "printedName": "startOCR(fromVC:trackingHandler:completion:)",
+            "printedName": "startOCR(fromVC:isVNEID:trackingHandler:onShareConsent:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -44814,6 +44929,21 @@
                 "name": "UIViewController",
                 "printedName": "UIKit.UIViewController",
                 "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -44864,6 +44994,32 @@
                 "usr": "s:Sq"
               },
               {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "(Swift.Int, Any?) -> ()",
@@ -44903,8 +45059,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7VFTeKYC0A6KYCSDKC8startOCR6fromVC15trackingHandler10completionySo16UIViewControllerC_ySS_SSSgtcSgySi_ypSgtctFZ",
-            "mangledName": "$s7VFTeKYC0A6KYCSDKC8startOCR6fromVC15trackingHandler10completionySo16UIViewControllerC_ySS_SSSgtcSgySi_ypSgtctFZ",
+            "usr": "s:7VFTeKYC0A6KYCSDKC8startOCR6fromVC7isVNEID15trackingHandler14onShareConsent10completionySo16UIViewControllerC_SbSgySS_SSSgtcSgyycSgySi_ypSgtctFZ",
+            "mangledName": "$s7VFTeKYC0A6KYCSDKC8startOCR6fromVC7isVNEID15trackingHandler14onShareConsent10completionySo16UIViewControllerC_SbSgySS_SSSgtcSgyycSgySi_ypSgtctFZ",
             "moduleName": "VFTeKYC",
             "static": true,
             "declAttributes": [
@@ -45444,30 +45600,12 @@
           {
             "kind": "Function",
             "name": "startVerifyVNeid",
-            "printedName": "startVerifyVNeid(birthdate:expiryDate:documentNumber:fromVC:trackingHandler:onShareConsent:completion:)",
+            "printedName": "startVerifyVNeid(fromVC:trackingHandler:onShareConsent:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -45589,8 +45727,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7VFTeKYC0A6KYCSDKC16startVerifyVNeid9birthdate10expiryDate14documentNumber6fromVC15trackingHandler14onShareConsent10completionySS_S2SSo16UIViewControllerCySS_SSSgtcSgyycSgySi_ypSgtctFZ",
-            "mangledName": "$s7VFTeKYC0A6KYCSDKC16startVerifyVNeid9birthdate10expiryDate14documentNumber6fromVC15trackingHandler14onShareConsent10completionySS_S2SSo16UIViewControllerCySS_SSSgtcSgyycSgySi_ypSgtctFZ",
+            "usr": "s:7VFTeKYC0A6KYCSDKC16startVerifyVNeid6fromVC15trackingHandler14onShareConsent10completionySo16UIViewControllerC_ySS_SSSgtcSgyycSgySi_ypSgtctFZ",
+            "mangledName": "$s7VFTeKYC0A6KYCSDKC16startVerifyVNeid6fromVC15trackingHandler14onShareConsent10completionySo16UIViewControllerC_ySS_SSSgtcSgyycSgySi_ypSgtctFZ",
             "moduleName": "VFTeKYC",
             "static": true,
             "declAttributes": [
@@ -137656,14 +137794,14 @@
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ChipNFCReaderViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15492,
+      "offset": 15423,
       "length": 8,
       "value": "\"yyMMdd\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ChipNFCReaderViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15533,
+      "offset": 15464,
       "length": 12,
       "value": "\"dd\/MM\/yyyy\""
     },
@@ -139817,11 +139955,46 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/QRScannerView\/QRScannerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 917,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/VFTeKYCSDK.swift",
       "kind": "Dictionary",
       "offset": 184,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/VFTeKYCSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23441,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/VFTeKYCSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28025,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/VFTeKYCSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 31245,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/VFTeKYCSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32343,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Libraries\/EFQRCode\/EFInputCorrectionLevel.swift",
@@ -139971,6 +140144,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/QRScannerView\/QRResultView\/QRResultViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 620,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/Scenes\/ScanQRVC\/ScanQRVC.swift",
       "kind": "BooleanLiteral",
       "offset": 604,
@@ -140086,6 +140266,13 @@
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/OcrIntroPage\/CameraOCRViewcontroller.swift",
       "kind": "BooleanLiteral",
       "offset": 1319,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/OcrIntroPage\/CameraOCRViewcontroller.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1478,
       "length": 5,
       "value": "false"
     },
