@@ -137890,14 +137890,14 @@
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ChipNFCReaderViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15423,
+      "offset": 15486,
       "length": 8,
       "value": "\"yyMMdd\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/ChipNFCReader\/ChipNFCReaderViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15464,
+      "offset": 15527,
       "length": 12,
       "value": "\"dd\/MM\/yyyy\""
     },
@@ -137988,49 +137988,49 @@
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/FaceLivenessViewController\/FaceLivenessViewController.swift",
       "kind": "StringLiteral",
-      "offset": 255,
-      "length": 28,
-      "value": "\"liveness_guide_screen_view\""
+      "offset": 252,
+      "length": 18,
+      "value": "\"liveness_started\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/FaceLivenessViewController\/FaceLivenessViewController.swift",
       "kind": "StringLiteral",
-      "offset": 319,
-      "length": 22,
-      "value": "\"liveness_ready_click\""
+      "offset": 303,
+      "length": 25,
+      "value": "\"liveness_capture_viewed\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/FaceLivenessViewController\/FaceLivenessViewController.swift",
       "kind": "StringLiteral",
-      "offset": 377,
-      "length": 30,
-      "value": "\"liveness_capture_screen_view\""
+      "offset": 361,
+      "length": 24,
+      "value": "\"liveness_retake_tapped\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/FaceLivenessViewController\/FaceLivenessViewController.swift",
       "kind": "StringLiteral",
-      "offset": 443,
-      "length": 26,
-      "value": "\"liveness_use_image_click\""
+      "offset": 418,
+      "length": 24,
+      "value": "\"liveness_result_viewed\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/FaceLivenessViewController\/FaceLivenessViewController.swift",
       "kind": "StringLiteral",
-      "offset": 505,
-      "length": 23,
-      "value": "\"liveness_retake_click\""
+      "offset": 512,
+      "length": 7,
+      "value": "\"ready\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/FaceLivenessViewController\/FaceLivenessViewController.swift",
       "kind": "StringLiteral",
-      "offset": 564,
-      "length": 17,
-      "value": "\"liveness_status\""
+      "offset": 550,
+      "length": 11,
+      "value": "\"use_image\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/FaceLivenessViewController\/FaceLivenessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1149,
+      "offset": 1135,
       "length": 5,
       "value": "false"
     },
@@ -143239,153 +143239,160 @@
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/EKYCTrackingEvent.swift",
       "kind": "StringLiteral",
       "offset": 227,
-      "length": 29,
-      "value": "\"idcard_front_capture_screen\""
-    },
-    {
-      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/EKYCTrackingEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 303,
       "length": 30,
       "value": "\"idcard_front_capture_started\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/EKYCTrackingEvent.swift",
       "kind": "StringLiteral",
-      "offset": 380,
+      "offset": 304,
       "length": 36,
       "value": "\"idcard_front_capture_result_viewed\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/EKYCTrackingEvent.swift",
       "kind": "StringLiteral",
-      "offset": 474,
+      "offset": 398,
       "length": 28,
       "value": "\"idcard_qr_guideline_viewed\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/EKYCTrackingEvent.swift",
       "kind": "StringLiteral",
-      "offset": 549,
+      "offset": 473,
       "length": 24,
       "value": "\"idcard_qr_scan_started\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/EKYCTrackingEvent.swift",
       "kind": "StringLiteral",
-      "offset": 620,
+      "offset": 544,
       "length": 30,
       "value": "\"idcard_qr_scan_result_viewed\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/EKYCTrackingEvent.swift",
       "kind": "StringLiteral",
-      "offset": 715,
+      "offset": 639,
       "length": 25,
       "value": "\"idcard_guideline_viewed\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/EKYCTrackingEvent.swift",
       "kind": "StringLiteral",
-      "offset": 787,
+      "offset": 711,
       "length": 29,
       "value": "\"idcard_back_capture_started\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/EKYCTrackingEvent.swift",
       "kind": "StringLiteral",
-      "offset": 863,
+      "offset": 787,
       "length": 35,
       "value": "\"idcard_back_capture_result_viewed\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/EKYCTrackingEvent.swift",
       "kind": "StringLiteral",
-      "offset": 970,
+      "offset": 881,
       "length": 22,
-      "value": "\"cccd_chip_scan_click\""
+      "value": "\"nfc_guideline_viewed\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/EKYCTrackingEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1039,
+      "offset": 950,
+      "length": 20,
+      "value": "\"idcard_nfc_started\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/EKYCTrackingEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1017,
+      "length": 26,
+      "value": "\"idcard_nfc_result_viewed\""
+    },
+    {
+      "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/EKYCTrackingEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1115,
       "length": 30,
       "value": "\"biometric_review_screen_view\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/EKYCTrackingEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1116,
+      "offset": 1192,
       "length": 24,
       "value": "\"biometric_review_click\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/EKYCTrackingEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1255,
+      "offset": 1331,
       "length": 12,
       "value": "\"understood\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/EKYCTrackingEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1322,
+      "offset": 1398,
       "length": 9,
       "value": "\"capture\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/EKYCTrackingEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1386,
+      "offset": 1462,
       "length": 16,
       "value": "\"guideline_side\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/EKYCTrackingEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1457,
+      "offset": 1533,
       "length": 27,
       "value": "\"idcard_qr_review_accepted\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/EKYCTrackingEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1539,
+      "offset": 1615,
       "length": 8,
       "value": "\"retake\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/EKYCTrackingEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1602,
+      "offset": 1678,
       "length": 30,
       "value": "\"idcard_front_review_accepted\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/EKYCTrackingEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1687,
+      "offset": 1763,
       "length": 29,
       "value": "\"idcard_back_review_accepted\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/EKYCTrackingEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1771,
+      "offset": 1847,
       "length": 16,
       "value": "\"cccd_chip_scan\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/EKYCTrackingEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1848,
+      "offset": 1924,
       "length": 11,
       "value": "\"auto_scan\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/TinvayVinfast\/TVHelpers\/EKYCTrackingEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1890,
+      "offset": 1966,
       "length": 8,
       "value": "\"manual\""
     },
