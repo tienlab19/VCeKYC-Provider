@@ -11,6 +11,7 @@ import CoreGraphics
 import CoreImage
 import CoreMedia
 import CoreNFC
+import CoreText
 import CryptoKit
 import CryptoTokenKit
 import DeveloperToolsSupport
@@ -262,7 +263,6 @@ extension VFTeKYC.ParameterEncoder where Self == VFTeKYC.URLEncodedFormParameter
   }
   public static func urlEncodedForm(encoder: VFTeKYC.URLEncodedFormEncoder = URLEncodedFormEncoder(), destination: VFTeKYC.URLEncodedFormParameterEncoder.Destination = .methodDependent) -> VFTeKYC.URLEncodedFormParameterEncoder
 }
-
 public struct VFTDg13Info : Swift.Codable {
   public let ethnic: Swift.String?
   public let gender: Swift.String?
@@ -1384,6 +1384,7 @@ public class DataGroup7 : VFTeKYC.DataGroup {
 public class TagReader {
   @objc deinit
 }
+
 public struct VFTVerifyFaceLiveness : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -1518,6 +1519,9 @@ extension VFTeKYC.RedirectHandler where Self == VFTeKYC.Redirector {
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public static func startEKYC(fromVC: UIKit.UIViewController, isVNEID: Swift.Bool? = false, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, onShareConsent: (() -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func startSDKV3(fromVC: UIKit.UIViewController, flow: VFTeKYC.SDKV3Flow = .full_step, isFrontCard: Swift.Bool = false, onChatBot: (() -> Swift.Void)? = nil, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, onShareConsent: (() -> Swift.Void)? = nil, onCompleted: ((_ code: Swift.Int, _ response: Any?) -> Swift.Void)? = nil)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public static func onActivePhysicCard(fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
@@ -3107,6 +3111,19 @@ extension VFTeKYC.DownloadResponse {
   @objc deinit
 }
 
+public enum SDKV3Flow {
+  case full_step
+  case ocr_liveness
+  case nfc_liveness
+  case ocr_only
+  case nfc_only
+  case liveness_only
+  public static func == (a: VFTeKYC.SDKV3Flow, b: VFTeKYC.SDKV3Flow) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 extension VFTeKYC.EFQRCode {
   #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "generate(for:encoding:size:backgroundColor:foregroundColor:watermark:watermarkMode:inputCorrectionLevel:icon:iconSize:watermarkIsTransparent:pointShape:mode:magnification:pointOffset:)")
@@ -4855,6 +4872,8 @@ extension VFTeKYC.URLEncoding.BoolEncoding : Swift.Equatable {}
 extension VFTeKYC.URLEncoding.BoolEncoding : Swift.Hashable {}
 extension VFTeKYC.JSONEncoding.Error : Swift.Equatable {}
 extension VFTeKYC.JSONEncoding.Error : Swift.Hashable {}
+extension VFTeKYC.SDKV3Flow : Swift.Equatable {}
+extension VFTeKYC.SDKV3Flow : Swift.Hashable {}
 @available(*, deprecated, message: "Use EFPointStyle instead.")
 extension VFTeKYC.EFPointShape : Swift.Equatable {}
 @available(*, deprecated, message: "Use EFPointStyle instead.")

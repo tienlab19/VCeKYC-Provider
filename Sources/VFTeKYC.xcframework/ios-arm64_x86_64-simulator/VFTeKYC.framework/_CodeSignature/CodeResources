@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		1nbaEYKGp5s3ZceWv3X9crtv6IA=
+		fPTweUEenXI8gkG9vwB3KLazYDI=
 		</data>
 		<key>CameraOCRViewcontroller.nib</key>
 		<data>
@@ -56,6 +56,30 @@
 		<data>
 		zF/w3yFKEnpxaUYy2mvbK0SEGGI=
 		</data>
+		<key>GoogleSansFlex_24pt-Black.ttf</key>
+		<data>
+		3sa8Dr2xwyRgwGEufBPdcFvKOKE=
+		</data>
+		<key>GoogleSansFlex_24pt-Bold.ttf</key>
+		<data>
+		my8ewTJSdNujPr+OgBv5Cs1iucA=
+		</data>
+		<key>GoogleSansFlex_24pt-ExtraBold.ttf</key>
+		<data>
+		SL1k9IGWL+JdeSqBLu5If/wqhNU=
+		</data>
+		<key>GoogleSansFlex_24pt-Medium.ttf</key>
+		<data>
+		MsO20g1McSzM3AuWP2OcARGDNTc=
+		</data>
+		<key>GoogleSansFlex_24pt-Regular.ttf</key>
+		<data>
+		UMLdH/GRLcYLS8gHJ7q2WXtLBvg=
+		</data>
+		<key>GoogleSansFlex_24pt-SemiBold.ttf</key>
+		<data>
+		qvaTjSvKHwFcLGuPFxVASUitYYs=
+		</data>
 		<key>Headers/VFTeKYC-Swift.h</key>
 		<data>
 		uVtyMDvqCpqIZTjc+kH64iLgog4=
@@ -78,43 +102,43 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		DD5/ZrVhvU8tpCkTSh6+kyq2fUo=
+		i7tPAZOnIWiVHpvKKzyfZM014/Q=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		D9ag9KZDh4UL0UMJmBhx4nMKR1U=
+		60OqtWTf3E0XDlWBIQtPpqHAYEk=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		7Yd0CJPQFCsJ8hzo/ucWK9TE5Ak=
+		+Q2CBAxwCaIuGzRxksL2IzY+Zyk=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		D9ag9KZDh4UL0UMJmBhx4nMKR1U=
+		60OqtWTf3E0XDlWBIQtPpqHAYEk=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WF213u7trP1QoPOfZgLzkAw3zU4=
+		FDUDVzElipRLA7tkQjLhXVVedjY=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		DD5/ZrVhvU8tpCkTSh6+kyq2fUo=
+		i7tPAZOnIWiVHpvKKzyfZM014/Q=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		joNau7j8K6/bdF+nRP0uKQGk4qg=
+		q9l3ZbXkS6ohLw9WAgESdkgXYT8=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		QOpz3Hdi8+MKtgzDAmQNIfmYi1A=
+		xEXEPtNcVFt/swATHARUxSkaiwk=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		joNau7j8K6/bdF+nRP0uKQGk4qg=
+		q9l3ZbXkS6ohLw9WAgESdkgXYT8=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		d/LsBPHAMBBv/lbeXR2yC2nPCcA=
+		57tEWbGV1JRjVxuzII0LXrc3QI0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -179,7 +203,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0rtc3lxL6ESnPnG+jnPuwDV4VVJrVjZ9u+G/DfIgi/M=
+			GcH3HzPuunezZjRFnNTunZovPuhyrraxr7rJrIc1IXA=
 			</data>
 		</dict>
 		<key>CameraOCRViewcontroller.nib</key>
@@ -266,6 +290,48 @@
 			JLwtVcU7S0zkw07kakpCpOF5h1mgKCmvbZGUNwc9/bc=
 			</data>
 		</dict>
+		<key>GoogleSansFlex_24pt-Black.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wBEdV0CCRnf6sN+nmBZ1jvYtPrhrr9feDEj6T2wx7MI=
+			</data>
+		</dict>
+		<key>GoogleSansFlex_24pt-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SIGiSF/Ee8TQcy9ZT+1HJkyUwf8c0W0FJdsZoMT/q/M=
+			</data>
+		</dict>
+		<key>GoogleSansFlex_24pt-ExtraBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tF5BH6rvWIxpg8jQXnXhGVbw6EZKvVMxTYqWf83CYkM=
+			</data>
+		</dict>
+		<key>GoogleSansFlex_24pt-Medium.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0lLqaOEI+6165fHOiXYRKvEidC7ZenGgKDT0AWG44mc=
+			</data>
+		</dict>
+		<key>GoogleSansFlex_24pt-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gE3FVKL19/aJP4Uz56WdSyN1UpmkFB5QXY6QUp6Ec7Y=
+			</data>
+		</dict>
+		<key>GoogleSansFlex_24pt-SemiBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eTxhxup1WuUymrlYO12m8UvX0QEOstZ+XQ3lIuPq4C0=
+			</data>
+		</dict>
 		<key>Headers/VFTeKYC-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -298,70 +364,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+J3cbB6D7fu0m3Olgn5CQzQ+naBRISyWq3vQ2bgVQos=
+			qPNvB7Wvnj0uFUbz92fZ07j7UfELqmQPN1JOuXWbCjs=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eaY3rBHgw9DIV3Xa4855yEZXcEvDBXbF76Tc33Mbu2I=
+			LP/FDQqMu72r1aspFEYgCfuvuWEC7ULnpe/8LNyW6oE=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			44zYi7dKui51IYkpzFKYFsJABukvuNp1ldjuC5Dl0io=
+			9SaQfpIMjGDHGKs4/1kT1isRf8Q83vAmhh/M30qC9NM=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eaY3rBHgw9DIV3Xa4855yEZXcEvDBXbF76Tc33Mbu2I=
+			LP/FDQqMu72r1aspFEYgCfuvuWEC7ULnpe/8LNyW6oE=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HbQUYsRowyVhzpd4wj5RFMx65DSxTpNKzAxYXAQl4m4=
+			vt2wNrszEuZIBU/6F/kwuhmxv2caTjZcVtWjLL8rpBs=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+J3cbB6D7fu0m3Olgn5CQzQ+naBRISyWq3vQ2bgVQos=
+			qPNvB7Wvnj0uFUbz92fZ07j7UfELqmQPN1JOuXWbCjs=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Di1e5miw5ib0xEtKqH9eqY78BPnCaEyxcK+MBFmsvCA=
+			/Hx5/gdQX7lDCcuk3cI3zSNNnEKnmYYv+Th/dn4C9s0=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZC8bj/nLxGQXPVqBRCZPqkqb4N/d8Aw/iWhWDW+UCvs=
+			xNEFsCJCBuBWeaXX1WY24bHJai7xek57TwLkNOS6Yw0=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Di1e5miw5ib0xEtKqH9eqY78BPnCaEyxcK+MBFmsvCA=
+			/Hx5/gdQX7lDCcuk3cI3zSNNnEKnmYYv+Th/dn4C9s0=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v9GN6B0yopCWJk4n38vRTMsB8KtsKUOdilKRJBPhmd8=
+			pwuMIHqNkzT2wWNyqQhFQpP2qtg+1N8v8PyidEGCE/g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
