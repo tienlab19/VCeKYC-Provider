@@ -1521,7 +1521,7 @@ extension VFTeKYC.RedirectHandler where Self == VFTeKYC.Redirector {
   public static func startEKYC(fromVC: UIKit.UIViewController, isVNEID: Swift.Bool? = false, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, onShareConsent: (() -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func startSDKV3(fromVC: UIKit.UIViewController, flow: VFTeKYC.SDKV3Flow = .full_step, isFrontCard: Swift.Bool = false, onChatBot: (() -> Swift.Void)? = nil, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, onShareConsent: (() -> Swift.Void)? = nil, onCompleted: ((_ code: Swift.Int, _ response: Any?) -> Swift.Void)? = nil)
+  public static func startSDKV3(fromVC: UIKit.UIViewController, flow: VFTeKYC.SDKV3Flow = .full_step, isVNeID: Swift.Bool? = false, isFrontCard: Swift.Bool = false, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, onShareConsent: (() -> Swift.Void)? = nil, onCompleted: ((_ code: Swift.Int, _ response: Any?) -> Swift.Void)? = nil)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public static func onActivePhysicCard(fromVC: UIKit.UIViewController, trackingHandler: ((_ eventName: Swift.String, _ params: Swift.String?) -> Swift.Void)? = nil, completion: @escaping (_ response: Swift.Int, _ data: Any?) -> Swift.Void)
