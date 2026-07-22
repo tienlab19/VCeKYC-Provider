@@ -6,83 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		fPTweUEenXI8gkG9vwB3KLazYDI=
-		</data>
-		<key>CameraOCRViewcontroller.nib</key>
-		<data>
-		dDnShsTlKjF0yAltCV/wuPef7c8=
-		</data>
-		<key>ChipDisplayDataViewController.nib</key>
-		<data>
-		hgU/rncGkwXo2Pz45bJdMHGjqfU=
-		</data>
-		<key>ChipNFCReaderViewController.nib</key>
-		<data>
-		MXnhheO5+cHZi0FI1uFdpBrale4=
-		</data>
-		<key>DialogCameraPermissionVC.nib</key>
-		<data>
-		TX3OfkXH5kzcFkS0rnLnKK8D4Z4=
-		</data>
-		<key>DialogViewController.nib</key>
-		<data>
-		wG5TeBDz6U648k5yWgICS0d340E=
-		</data>
-		<key>FaceDetectFarAndNearViewController.nib</key>
-		<data>
-		PZL8s1tQYxxqnQa4StEwsdp4OXo=
-		</data>
-		<key>FaceLivenessProcessingViewController.nib</key>
-		<data>
-		azuPsZMTSArjL9cYRfEQyBLHXpo=
-		</data>
-		<key>FaceLivenessResulViewController.nib</key>
-		<data>
-		hkbJblHa7jM17/jJyzgurNWpfzg=
-		</data>
-		<key>FaceLivenessViewController.nib</key>
-		<data>
-		DmZex/kSyNDkWr4pJG9brG81GWs=
-		</data>
-		<key>FaceMatchingInfoVC.nib</key>
-		<data>
-		L5Un+oR0iyS9Au2Pa2HleW+FUzA=
-		</data>
-		<key>FaceMatchingVC.nib</key>
-		<data>
-		oNo1m9WEPu+ZYu55J9eVR4P32fI=
-		</data>
-		<key>FirstVC.nib</key>
-		<data>
-		zF/w3yFKEnpxaUYy2mvbK0SEGGI=
-		</data>
-		<key>GoogleSansFlex_24pt-Black.ttf</key>
-		<data>
-		3sa8Dr2xwyRgwGEufBPdcFvKOKE=
-		</data>
-		<key>GoogleSansFlex_24pt-Bold.ttf</key>
-		<data>
-		my8ewTJSdNujPr+OgBv5Cs1iucA=
-		</data>
-		<key>GoogleSansFlex_24pt-ExtraBold.ttf</key>
-		<data>
-		SL1k9IGWL+JdeSqBLu5If/wqhNU=
-		</data>
-		<key>GoogleSansFlex_24pt-Medium.ttf</key>
-		<data>
-		MsO20g1McSzM3AuWP2OcARGDNTc=
-		</data>
-		<key>GoogleSansFlex_24pt-Regular.ttf</key>
-		<data>
-		UMLdH/GRLcYLS8gHJ7q2WXtLBvg=
-		</data>
-		<key>GoogleSansFlex_24pt-SemiBold.ttf</key>
-		<data>
-		qvaTjSvKHwFcLGuPFxVASUitYYs=
+		XCxh0ybzSAsJj6HN12FTSEVnYTw=
 		</data>
 		<key>Headers/VFTeKYC-Swift.h</key>
 		<data>
-		uVtyMDvqCpqIZTjc+kH64iLgog4=
+		iMTJdmmiuaK3FgXOoATimoT40bI=
 		</data>
 		<key>Headers/VFTeKYC.h</key>
 		<data>
@@ -92,109 +20,49 @@
 		<data>
 		FIzx4tHxZhpBknlPZMdclo36C0Q=
 		</data>
-		<key>InputEkycViewcontroller.nib</key>
-		<data>
-		IC5VbnLfyibD9SltY4yeTrzJLqI=
-		</data>
-		<key>LoginVC.nib</key>
-		<data>
-		fY6ugnXvKyJYsRFbo/o5Wo05ZNg=
-		</data>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		mOQ4iKnDiQlPWN9NElxq1weAth8=
+		f9rOKDwH6OuJUS83lJYMuGSPpMI=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		j/RDHhLYJIrP59QBkp8CmzLBI/k=
+		Z+bmVLajroBr4g6pddah5hflp74=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		zJ6Z1s5nwRdZ67X20Cv1/AhnNQo=
+		OUZV5/FkwIEMR5vbz3LxJ7qXPu0=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		j/RDHhLYJIrP59QBkp8CmzLBI/k=
+		Z+bmVLajroBr4g6pddah5hflp74=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hY5J2dvpGWpgygDmAmzF8r09tMI=
+		eZFnL4/cTwPBrToMmfAfdH9e99U=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		mOQ4iKnDiQlPWN9NElxq1weAth8=
+		f9rOKDwH6OuJUS83lJYMuGSPpMI=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		GQFlYQ4kJFzxpRoevJy44troME8=
+		0Fb3187OFbBRPwI0PAfEW1ulfNA=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		CA98VLVYoPRgU/oriTEQ5U9dQYw=
+		VxQl3mzqGNkJKhp/3TUbY7QTOvI=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		GQFlYQ4kJFzxpRoevJy44troME8=
+		0Fb3187OFbBRPwI0PAfEW1ulfNA=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		eNK/AzKXbhZNloTgEzs7jDoRvqc=
+		GWmh+BywGN0FL3e59SrZNlJJJVE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		dWLuXWv/2SujlxN2yV9n4Vc3xpw=
-		</data>
-		<key>ORCInfoVC.nib</key>
-		<data>
-		dMc14TS4PNLrgT7p6h27cr/1FdQ=
-		</data>
-		<key>OcrGuidePageViewController.nib</key>
-		<data>
-		UAMa96DhraQwXgOD3sthIJNbl2Y=
-		</data>
-		<key>PlayScanNFCToturialViewcontroller.nib</key>
-		<data>
-		VQVwkBcjwwdqWKSH2TPsj3vHgX0=
-		</data>
-		<key>QRGuideViewController.nib</key>
-		<data>
-		fv0TqVSUJIu1PxbS2+nw0OIyPH8=
-		</data>
-		<key>QRResultViewController.nib</key>
-		<data>
-		cGCWZTmmPYmQAoldvkEnpahlm3o=
-		</data>
-		<key>QRScannerViewController.nib</key>
-		<data>
-		qkmmhMkddXq2SO+D5s4izhjQlTQ=
-		</data>
-		<key>ScanQRVC.nib</key>
-		<data>
-		fslaiEAn2chKAxV1bXb7UaIwHMo=
-		</data>
-		<key>ScanVC.nib</key>
-		<data>
-		60n0iZoC8LKJGeOxMDrtZMRu1zQ=
-		</data>
-		<key>VFTNoConnectionVC.nib</key>
-		<data>
-		cg5rGUPQxS3wxnV3x5qg1buM1AQ=
-		</data>
-		<key>VFTResultCell.nib</key>
-		<data>
-		fnasgF92IptglOPXNm8lDVf3Jok=
-		</data>
-		<key>VFTResultVC.nib</key>
-		<data>
-		2TsDvLUxlGb5ft8tHiHkCem1qBE=
-		</data>
-		<key>VFTTextField.nib</key>
-		<data>
-		qrsFb0sSPrTfLx7Iawd+0UmolNo=
-		</data>
-		<key>YTPlayer.html</key>
-		<data>
-		bDU1XsmSIVu0iWZkOV7TFoN7A30=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -203,140 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GcH3HzPuunezZjRFnNTunZovPuhyrraxr7rJrIc1IXA=
-			</data>
-		</dict>
-		<key>CameraOCRViewcontroller.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			C31QDhg0yW/AER0FVLwJ2KZG1Qw40JkZ/2Z1TNhu8Tc=
-			</data>
-		</dict>
-		<key>ChipDisplayDataViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			NaMu7KiJSVFXBgX/xKQMsCUl/5qqDyGCwjHtlaxS8zA=
-			</data>
-		</dict>
-		<key>ChipNFCReaderViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			b0nIWgEe/kSK0OntQDqB8sT+3oK2waYG1x0eb+oFdcs=
-			</data>
-		</dict>
-		<key>DialogCameraPermissionVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MxK/1RT3LFQ8dYbktAfrxTi8Ef2Ppeewu2DmxX+/jQw=
-			</data>
-		</dict>
-		<key>DialogViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DJtULNi++s/5yCMKWbiR8ABteaZ1N7qtvNGifiztzNU=
-			</data>
-		</dict>
-		<key>FaceDetectFarAndNearViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qSdsCEg56yMGfBweaQ3HvJkKJnnYqzdg9xyZnEqAWKY=
-			</data>
-		</dict>
-		<key>FaceLivenessProcessingViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			M8SK9dTDAaYG6INCc7vOo5PcW88rpCH4lDYazJTo7cs=
-			</data>
-		</dict>
-		<key>FaceLivenessResulViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DUjgyYV4iHa75WKqa6eDLpsX76QmtPG6fUWy1pE+svk=
-			</data>
-		</dict>
-		<key>FaceLivenessViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KAxjQqJw+RA1JhXllfvwwT9QgxdOarSt4M4v2xemaHM=
-			</data>
-		</dict>
-		<key>FaceMatchingInfoVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			emnKTcxOhhh2APH3H5uevCs1iQYPB62qCpMOVqVR4vU=
-			</data>
-		</dict>
-		<key>FaceMatchingVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sZaZpQp/iqT8ogDTvDVMCN7zJAzf9fV4iAhLOM+uh8o=
-			</data>
-		</dict>
-		<key>FirstVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JLwtVcU7S0zkw07kakpCpOF5h1mgKCmvbZGUNwc9/bc=
-			</data>
-		</dict>
-		<key>GoogleSansFlex_24pt-Black.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wBEdV0CCRnf6sN+nmBZ1jvYtPrhrr9feDEj6T2wx7MI=
-			</data>
-		</dict>
-		<key>GoogleSansFlex_24pt-Bold.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			SIGiSF/Ee8TQcy9ZT+1HJkyUwf8c0W0FJdsZoMT/q/M=
-			</data>
-		</dict>
-		<key>GoogleSansFlex_24pt-ExtraBold.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tF5BH6rvWIxpg8jQXnXhGVbw6EZKvVMxTYqWf83CYkM=
-			</data>
-		</dict>
-		<key>GoogleSansFlex_24pt-Medium.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0lLqaOEI+6165fHOiXYRKvEidC7ZenGgKDT0AWG44mc=
-			</data>
-		</dict>
-		<key>GoogleSansFlex_24pt-Regular.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gE3FVKL19/aJP4Uz56WdSyN1UpmkFB5QXY6QUp6Ec7Y=
-			</data>
-		</dict>
-		<key>GoogleSansFlex_24pt-SemiBold.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eTxhxup1WuUymrlYO12m8UvX0QEOstZ+XQ3lIuPq4C0=
+			7fTpoj8vXyLoNunXyyhQwJIklg0aJJnLepzuziy+oiM=
 			</data>
 		</dict>
 		<key>Headers/VFTeKYC-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zvr4uPuhgeKAK5wssFPvXGmeRdbaQKgh4nVaxuCYWws=
+			86OjHmqgiJfIH7BfTEFAf4lYVX7LgLo4RqS33pvuKq4=
 			</data>
 		</dict>
 		<key>Headers/VFTeKYC.h</key>
@@ -346,88 +88,74 @@
 			lrosnQJFcWBx5uD4O3sU2dtQMl/Ndm+JZVdWw2HT9Ls=
 			</data>
 		</dict>
-		<key>InputEkycViewcontroller.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Y4S9pj2LpJ6Ju3VeMy/sgEKET0VUJVebo8ipC4VFXw8=
-			</data>
-		</dict>
-		<key>LoginVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			h4bTLBJRPWJ4+V0uT5MxbIV5MwHzvGigv54+We6Ptzc=
-			</data>
-		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M5TEBdamx2eSLjek4xyeplb0jrDkqJAeDKDEvKYcyQg=
+			A80MupxNjbU9DYSmgIS/Z+5kXmN364GbdhWW4NCCtT0=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			euzBQ8m+YkmeXauXu3B27eHMpr+Xvm57V7zy1DXo6aE=
+			K5FCfNfFypATSQ91VeUCAS0PRwxxHx+Xw98CoQrWbeQ=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GBL8PPC5IPiNlHN5QFHgF40JfnqAx8sWpLjE8lXRgkA=
+			D8AdVNFkZb5QXiieN60broDZsq1lDS9jeBDwOnWV6xY=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			euzBQ8m+YkmeXauXu3B27eHMpr+Xvm57V7zy1DXo6aE=
+			K5FCfNfFypATSQ91VeUCAS0PRwxxHx+Xw98CoQrWbeQ=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QTRshj2bqKf9RBA5wKjwVPWUSKwYnIID4Kev7/ogxVI=
+			kKR+7uR16Miuw/pEpmY3LH9Ted4t/8S5f8B0BRzy59s=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M5TEBdamx2eSLjek4xyeplb0jrDkqJAeDKDEvKYcyQg=
+			A80MupxNjbU9DYSmgIS/Z+5kXmN364GbdhWW4NCCtT0=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BJ/OnZtLasjaaB9vrsi00W5vR+dn/avL0SUTyWHsZdc=
+			OMxDdiXbZZit9wfsCGGCpVqGLYpLPF+ZcTi3oFcatkI=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sAhn89WliWJwmU95xRkOnlBk/lojinKBPtrWVCbhErg=
+			jZp0V07AzLGULDzsV6w7yt1JduBYj+6R/4BTxmVZd0k=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BJ/OnZtLasjaaB9vrsi00W5vR+dn/avL0SUTyWHsZdc=
+			OMxDdiXbZZit9wfsCGGCpVqGLYpLPF+ZcTi3oFcatkI=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y36wQy9r5V48ldrPUGQdd4HZ3zftzFNJjKPgSvH43JA=
+			WlTqPZpRlumE2hYGPiOA/2derCuZG0/X1oLBYixXsws=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -435,97 +163,6 @@
 			<key>hash2</key>
 			<data>
 			JS0aXdNXQB1yb6h8YnGAKCgki7JQ+GONpKDqjB+P1Tc=
-			</data>
-		</dict>
-		<key>ORCInfoVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jjG7P2GaEgVsam5ZoeDhdTSz4mOlz15G1uvQTOk8q40=
-			</data>
-		</dict>
-		<key>OcrGuidePageViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			30Uk8CjPUvS/OUJFQeh7s0RE52oOJ0+RVHQZkT0Vi3A=
-			</data>
-		</dict>
-		<key>PlayScanNFCToturialViewcontroller.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tG/rnjkrjZAshYnIMLrBK22l7DnGnKA+SVz1q7ajLZ0=
-			</data>
-		</dict>
-		<key>QRGuideViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5i062DbYxXAC6W7S4TeMNsna2ylmTDQ23yvSW+QnnUQ=
-			</data>
-		</dict>
-		<key>QRResultViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zKl/ZRa3x4NEl3ZzpJ4Z5FFUyZJrqeclk9HdFuSzNDg=
-			</data>
-		</dict>
-		<key>QRScannerViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MAsuXhMVfvM2So5glhJ2vgjyn6pAvakii4Z00Jels1o=
-			</data>
-		</dict>
-		<key>ScanQRVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YeUZCy82OIRdy9lEtFRbcNwBFud1k1+BgGmPuHGMl3A=
-			</data>
-		</dict>
-		<key>ScanVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RkG6lrqSuQ/wtKwoJw+Ef3eVZjI+FvBU4aemjgIcygU=
-			</data>
-		</dict>
-		<key>VFTNoConnectionVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ITRbOp2v1fzgzS4b6z1rVLwr6cJDKqE3C8LPq4q6xWc=
-			</data>
-		</dict>
-		<key>VFTResultCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			F2aanZKTcv/8jyBCRVPm/kjs7mo861yr27SVW1SulKg=
-			</data>
-		</dict>
-		<key>VFTResultVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			D8zEs84mPfzT0KTeWBMWbpVLu03HcbJJFrQQ8ECML8U=
-			</data>
-		</dict>
-		<key>VFTTextField.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UkOAlavwjzx90kR6VdBO10ABeMXi0RDZx1Ug8Fb4PYM=
-			</data>
-		</dict>
-		<key>YTPlayer.html</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			V8P5qw1fk18Dg5WgmzXvh7F3RZaRmJrpmaEn1kZhBF8=
 			</data>
 		</dict>
 	</dict>
