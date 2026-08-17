@@ -435,6 +435,7 @@ public struct VFTCardOverflowValid : Swift.Codable {
   public var address: Swift.String?
   public var issueDate: Swift.String?
   public var idCard: Swift.String?
+  public var image: Swift.String?
   public var expireDate: Swift.String?
   public var dob: Swift.String?
   @objc deinit
