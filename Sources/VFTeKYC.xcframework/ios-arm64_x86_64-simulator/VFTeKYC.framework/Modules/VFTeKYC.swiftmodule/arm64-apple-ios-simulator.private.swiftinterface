@@ -1149,6 +1149,11 @@ public class NFCPassportModel {
   }
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
+  public var idCardDetail: VFTeKYC.IDCardDetail? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var getDg11: VFTeKYC.DataGroup11? {
     get
   }
@@ -1324,7 +1329,28 @@ extension VFTeKYC.PassportReader : CoreNFC.NFCTagReaderSessionDelegate {
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
 public class DataGroup13 : VFTeKYC.DataGroup {
+  public var idcardDetail: VFTeKYC.IDCardDetail {
+    get
+  }
   @objc deinit
+}
+public struct IDCardDetail {
+  public var citizenPID: Swift.String
+  public var fullName: Swift.String
+  public var birthDate: Swift.String
+  public var gender: Swift.String
+  public var nationality: Swift.String
+  public var ethnic: Swift.String
+  public var religion: Swift.String
+  public var homeTown: Swift.String
+  public var regPlaceAddress: Swift.String
+  public var identifyCharacteristics: Swift.String
+  public var dateProvide: Swift.String
+  public var outOfDate: Swift.String
+  public var fatherName: Swift.String
+  public var motherName: Swift.String
+  public var partnerName: Swift.String
+  public var oldIdentify: Swift.String
 }
 public enum PACEMappingType {
   case GM
