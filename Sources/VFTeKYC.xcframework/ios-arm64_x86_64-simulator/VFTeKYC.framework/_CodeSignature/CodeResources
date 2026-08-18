@@ -102,7 +102,7 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ZJxRBTH0QIa0IJ0FZUXYRBXz2Qk=
+		iLJZaJ8CqX/t36EH5s/T0gStTqI=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ZJxRBTH0QIa0IJ0FZUXYRBXz2Qk=
+		iLJZaJ8CqX/t36EH5s/T0gStTqI=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -364,7 +364,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kr9nRBSs5U+FXg+E9F3CDH6S+sZ4dkxq7ujah1Dd1Cw=
+			REcixxPYr7pfeZfQCYbgnq6/PMzgRlV+4q5/0IKbdoM=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -399,7 +399,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kr9nRBSs5U+FXg+E9F3CDH6S+sZ4dkxq7ujah1Dd1Cw=
+			REcixxPYr7pfeZfQCYbgnq6/PMzgRlV+4q5/0IKbdoM=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
