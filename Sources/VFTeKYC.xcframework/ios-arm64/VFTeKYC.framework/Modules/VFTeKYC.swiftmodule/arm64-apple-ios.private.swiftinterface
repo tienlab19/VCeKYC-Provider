@@ -1495,8 +1495,11 @@ extension VFTeKYC.RedirectHandler where Self == VFTeKYC.Redirector {
   public static func modify(using closure: @escaping (Foundation.URLSessionTask, Foundation.URLRequest, Foundation.HTTPURLResponse) -> Foundation.URLRequest?) -> VFTeKYC.Redirector
   #endif
 }
+public typealias VFTeKYCChatBotDeepLink = (_ universalLink: Swift.String) -> Swift.Void
 @_hasMissingDesignatedInitializers public class VFTeKYCSDK {
-  public static func initVFTeKYC(frontSideUrl: Swift.String, backSideUrl: Swift.String, verifyQrcodeUrl: Swift.String, verifyFaceUrl: Swift.String, chipReaderUrl: Swift.String, customerInfoEkyc: Swift.String, chatBotUrl: Swift.String, bearToken: Swift.String, isOCR: Swift.Bool, isFrontCard: Swift.Bool, isQR: Swift.Bool, isNFC: Swift.Bool, isLivenessCheck: Swift.Bool, cccd: Swift.String, expiredDate: Swift.String, dob: Swift.String, phoneNumber: Swift.String, headers: [Swift.String : Any])
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func initVFTeKYC(frontSideUrl: Swift.String, backSideUrl: Swift.String, verifyQrcodeUrl: Swift.String, verifyFaceUrl: Swift.String, chipReaderUrl: Swift.String, customerInfoEkyc: Swift.String, chatBotUrl: Swift.String, bearToken: Swift.String, isOCR: Swift.Bool, isFrontCard: Swift.Bool, isQR: Swift.Bool, isNFC: Swift.Bool, isLivenessCheck: Swift.Bool, cccd: Swift.String, expiredDate: Swift.String, dob: Swift.String, phoneNumber: Swift.String, headers: [Swift.String : Any], onReceiveChatBotDeepLink: VFTeKYC.VFTeKYCChatBotDeepLink? = nil)
+  #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public static func backSideVinFast(image: UIKit.UIImage, success: ((VFTeKYC.VCBackSideModel) -> Swift.Void)?, failed: ((Swift.String, Swift.String, _ data: VFTeKYC.JSON?) -> Swift.Void)?)
   #endif
