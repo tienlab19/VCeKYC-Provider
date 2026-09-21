@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Rhs1QTdFK7RW8NXCxHlpQPuJPpA=
+		fPTweUEenXI8gkG9vwB3KLazYDI=
 		</data>
 		<key>CameraOCRViewcontroller.nib</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		pAn3XrxEG3o3v3/HtBYMJZdczYs=
+		O+TY5qrkdcdpYLYuvIsVsxjmQuQ=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -118,11 +118,11 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3fUi3ChBeCN9bqaOlOUcsWpto7A=
+		7mcSv9toUp0BoOvdp8GtruCq6sQ=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		pAn3XrxEG3o3v3/HtBYMJZdczYs=
+		O+TY5qrkdcdpYLYuvIsVsxjmQuQ=
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -138,7 +138,7 @@
 		</data>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JRDRAqi2Ryuiqx/YO5I8hQ7dxuc=
+		LnevfjqEFWJD1+LIM8EECHYUmNA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -203,7 +203,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZRjPi8BdtdKA/32C3pE8WMufiIfSnd4VJ4r5UqabDAE=
+			GcH3HzPuunezZjRFnNTunZovPuhyrraxr7rJrIc1IXA=
 			</data>
 		</dict>
 		<key>CameraOCRViewcontroller.nib</key>
@@ -364,7 +364,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HGE55GQjzxZJyR6WUBjrhD0LxLyDngvjvhJzFWyx+Ko=
+			m72UU6G06VSNXHo6pYOpZVXIbHdvetXmzPhHxQOan1w=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -392,14 +392,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BiXW686EJBnwLZ72TT/LFY7TfjSTevkxNRxfy1GZjiw=
+			N+Kceioyf8oQJajW3VDwFrbeITvl7w08oGutJcoeDYk=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HGE55GQjzxZJyR6WUBjrhD0LxLyDngvjvhJzFWyx+Ko=
+			m72UU6G06VSNXHo6pYOpZVXIbHdvetXmzPhHxQOan1w=
 			</data>
 		</dict>
 		<key>Modules/VFTeKYC.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -427,7 +427,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B4eN2RO9Hp09FWUKcFy9lnUL08kjbhtk7Jr5ae/On9Y=
+			eMdM/pN/GPL6cB0uRuyklEYd3rym/TUYSB0XScvwEj0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
