@@ -1,0 +1,4 @@
+framework module AuthenticationIDSDK {
+  header "AuthenticationIDSDK-Swift.h"
+  requires objc
+}

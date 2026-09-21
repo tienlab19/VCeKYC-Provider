@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'VCeKYC-Provider'
-  s.version          = '2.0.0'
-  s.summary          = 'VCeKYC Provider – eKYC integration framework for iOS (VCApp v2)'
+  s.version          = '3.0.0'
+  s.summary          = 'VCeKYC Provider – eKYC integration framework for iOS (VCApp v3)'
 
   s.description      = <<-DESC
     VCeKYC-Provider cung cấp khả năng eKYC (electronic Know Your Customer) cho ứng dụng iOS,
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     đọc NFC và quét mã QR.
   DESC
 
-  s.homepage         = 'https://github.com/tienlab19/vcekyc-provider'
+  s.homepage         = 'https://github.com/tienlab19/VCeKYC-Provider'
   s.license          = { :type => 'Proprietary', :text => 'Copyright © 2024 VietCredit. All rights reserved.' }
   s.author           = { 'VietCredit' => 'trantan.tien@vietcredit.com.vn' }
 
@@ -17,13 +17,16 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.swift_version         = '5.0'
 
-  s.source = { :git => 'https://github.com/tienlab19/vcekyc-provider.git', :branch => 'eKYC-release-vcappv2' }
+  s.source = { :git => 'https://github.com/tienlab19/VCeKYC-Provider.git', :branch => 'eKYC-vcapp-v3' }
 
   s.source_files = 'Sources/VCeKYC-Provider/**/*.swift'
 
   s.vendored_frameworks = [
     'Sources/VFTeKYC.xcframework',
-    'Sources/OpenSSL.xcframework'
+    'Sources/OpenSSL.xcframework',
+    'Sources/AuthenticationIDSDK.framework',
+    'Sources/TrueIDFaceDetectSDK.framework',
+    'Sources/bshield.framework'
   ]
 
   s.pod_target_xcconfig = {

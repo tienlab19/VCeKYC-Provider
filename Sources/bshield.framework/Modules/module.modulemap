@@ -1,0 +1,6 @@
+framework module BShield {
+    umbrella header "bshield.h"
+
+    export *
+    module * { export * }
+}
