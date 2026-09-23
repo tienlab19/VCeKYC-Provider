@@ -3147,6 +3147,7 @@ public enum SDKV3Flow {
   case ocr_only
   case nfc_only
   case liveness_only
+  case ocr_nfc
   public static func == (a: VFTeKYC.SDKV3Flow, b: VFTeKYC.SDKV3Flow) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {

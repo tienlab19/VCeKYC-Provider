@@ -87119,6 +87119,43 @@
             "moduleName": "VFTeKYC"
           },
           {
+            "kind": "Var",
+            "name": "ocr_nfc",
+            "printedName": "ocr_nfc",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VFTeKYC.SDKV3Flow.Type) -> VFTeKYC.SDKV3Flow",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKV3Flow",
+                    "printedName": "VFTeKYC.SDKV3Flow",
+                    "usr": "s:7VFTeKYC9SDKV3FlowO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VFTeKYC.SDKV3Flow.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKV3Flow",
+                        "printedName": "VFTeKYC.SDKV3Flow",
+                        "usr": "s:7VFTeKYC9SDKV3FlowO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7VFTeKYC9SDKV3FlowO7ocr_nfcyA2CmF",
+            "mangledName": "$s7VFTeKYC9SDKV3FlowO7ocr_nfcyA2CmF",
+            "moduleName": "VFTeKYC"
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -142774,35 +142811,35 @@
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/VFTeKYCSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 26895,
+      "offset": 26942,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/VFTeKYCSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 26956,
+      "offset": 27003,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/VFTeKYCSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 30755,
+      "offset": 30802,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/VFTeKYCSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 33479,
+      "offset": 33526,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/VFTeKYCSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 34577,
+      "offset": 34624,
       "length": 5,
       "value": "false"
     },
@@ -144636,91 +144673,91 @@
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/SDKV3\/Entry\/EntryView.swift",
       "kind": "IntegerLiteral",
-      "offset": 347,
+      "offset": 364,
       "length": 8,
       "value": "1"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/SDKV3\/Entry\/EntryView.swift",
       "kind": "IntegerLiteral",
-      "offset": 365,
+      "offset": 382,
       "length": 20,
       "value": "2"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/SDKV3\/Entry\/EntryView.swift",
       "kind": "IntegerLiteral",
-      "offset": 395,
+      "offset": 412,
       "length": 16,
       "value": "3"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/SDKV3\/Entry\/EntryView.swift",
       "kind": "BooleanLiteral",
-      "offset": 886,
+      "offset": 903,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/SDKV3\/Entry\/EntryView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1915,
+      "offset": 2096,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/SDKV3\/Entry\/EntryView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2031,
+      "offset": 2212,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/SDKV3\/Entry\/EntryView.swift",
       "kind": "StringLiteral",
-      "offset": 3783,
+      "offset": 3964,
       "length": 9,
       "value": "\"#BD081C\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/SDKV3\/Entry\/EntryView.swift",
       "kind": "StringLiteral",
-      "offset": 3908,
+      "offset": 4089,
       "length": 9,
       "value": "\"#222222\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/SDKV3\/Entry\/EntryView.swift",
       "kind": "StringLiteral",
-      "offset": 3990,
+      "offset": 4171,
       "length": 9,
       "value": "\"#8A8A8A\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/SDKV3\/Entry\/EntryView.swift",
       "kind": "StringLiteral",
-      "offset": 4082,
+      "offset": 4263,
       "length": 9,
       "value": "\"#D4D4D4\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/SDKV3\/Entry\/EntryView.swift",
       "kind": "StringLiteral",
-      "offset": 4169,
+      "offset": 4350,
       "length": 9,
       "value": "\"#1AAE6F\""
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/SDKV3\/Entry\/EntryView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11543,
+      "offset": 11724,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tientran\/Workplace\/ios-sdk\/VegaFintecheKYC\/VFTeKYC\/SDKV3\/Entry\/EntryView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11579,
+      "offset": 11760,
       "length": 5,
       "value": "false"
     },
