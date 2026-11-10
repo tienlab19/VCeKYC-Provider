@@ -7,5 +7,4 @@ framework module VFTeKYC {
 
 module VFTeKYC.Swift {
   header "VFTeKYC-Swift.h"
-  requires objc
 }
