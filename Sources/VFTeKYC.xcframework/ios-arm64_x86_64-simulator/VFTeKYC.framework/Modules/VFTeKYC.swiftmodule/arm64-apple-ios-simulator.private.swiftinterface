@@ -45,6 +45,9 @@ public struct ORCFront : Swift.Codable {
 }
 @_hasMissingDesignatedInitializers public class VFTeKYCConfig {
   public static let shared: VFTeKYC.VFTeKYCConfig
+  public var uuid: Swift.String {
+    get
+  }
   public var headers: [Swift.String : Any]
   public var params: [Swift.String : Any]
   public var frontSideUrl: Swift.String
