@@ -7,5 +7,4 @@ framework module TrueIDFaceDetectSDK {
 
 module TrueIDFaceDetectSDK.Swift {
   header "TrueIDFaceDetectSDK-Swift.h"
-  requires objc
 }
